@@ -6,13 +6,35 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "title": "Slide 1"
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 1",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         },
         "slide-2": {
           "type": "image",
           "settings": {
-            "title": "Slide 2"
+            "text_position": "middle_center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
           }
         }
       },
@@ -21,6 +43,11 @@
         "slide-2"
       ],
       "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
       }
     },
     "featured-collections": {
@@ -29,68 +56,38 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "collection-1"
-      ],
-      "settings": {
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "item-1": {
-          "type": "item",
-          "settings": {
-            "tab_label": "Text 1"
+            "collection": "holiday-drop",
+            "label": "Celebrities",
+            "button_text": "",
+            "button_url": ""
           }
         },
-        "item-2": {
-          "type": "item",
+        "3507587e-9513-4fef-8e97-2105c7381b65": {
+          "type": "collection",
           "settings": {
-            "tab_label": "Text 2"
+            "collection": "best-sellers",
+            "label": "influencers",
+            "button_text": "",
+            "button_url": ""
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2"
+        "collection-1",
+        "3507587e-9513-4fef-8e97-2105c7381b65"
       ],
       "settings": {
-      }
-    },
-    "shop-the-look": {
-      "type": "shop-the-look",
-      "blocks": {
-        "look-1": {
-          "type": "look",
-          "settings": {
-            "dot_type": "inverted",
-            "product_1_horizontal_position": 41,
-            "product_1_vertical_position": 41,
-            "product_2_horizontal_position": 46,
-            "product_2_vertical_position": 64,
-            "product_3_horizontal_position": 62,
-            "product_3_vertical_position": 50
-          }
-        }
-      },
-      "block_order": [
-        "look-1"
-      ],
-      "settings": {
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-      }
-    },
-    "image-with-text-block": {
-      "type": "image-with-text-block",
-      "settings": {
+        "subheading": "",
+        "title": "As Seen On",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "collection-list": {
@@ -99,16 +96,43 @@
         "collection-1": {
           "type": "collection",
           "settings": {
+            "collection": "new-arrivals",
+            "image": "shopify:\/\/shop_images\/Rectangle_21.png",
+            "subheading": "",
+            "title": "New Arrivals",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
         "collection-2": {
           "type": "collection",
           "settings": {
+            "collection": "sale",
+            "image": "shopify:\/\/shop_images\/Rectangle_22.png",
+            "subheading": "",
+            "title": "Sale",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         },
         "collection-3": {
           "type": "collection",
           "settings": {
+            "collection": "beverly-hills-hotel-collaboration",
+            "image": "shopify:\/\/shop_images\/Rectangle_23.png",
+            "subheading": "",
+            "title": "Beverly Hills Hotel Collection",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
           }
         }
       },
@@ -118,144 +142,263 @@
         "collection-3"
       ],
       "settings": {
-        "layout": "collage"
+        "custom_class": "",
+        "reveal_on_scroll": false,
+        "layout": "collage",
+        "subheading": "",
+        "title": "Shop Collections",
+        "background": "#f0f6fa",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
-    "timeline": {
-      "type": "timeline",
+    "1c245b98-576c-481f-9a52-ca7e7fff1567": {
+      "type": "image-with-text",
       "blocks": {
-        "item-1": {
+        "template--16615735591140__1c245b98-576c-481f-9a52-ca7e7fff1567-16678519610f101344-0": {
           "type": "item",
           "settings": {
-            "label": "2000"
-          }
-        },
-        "item-2": {
-          "type": "item",
-          "settings": {
-            "label": "2010"
-          }
-        },
-        "item-3": {
-          "type": "item",
-          "settings": {
-            "label": "2020"
+            "image": "shopify:\/\/shop_images\/Rectangle_17.png",
+            "tab_label": "ABOUT SHORT & SUITE",
+            "subheading": "ABOUT SHORT & SUITE",
+            "title": "Inspired by Paris Fashion Week and '90s Nostalgia",
+            "content": "<p>Gone for now are the days of slipping into something more elevated than athleisure and putting on a pair of pretty earrings to pop by for a visit somewhere. To the rescue is Short & Suite, an affordable luxury jewelry brand based out of Los Angeles that's making wearers feel glam during grim times.<\/p>",
+            "button_text": "LEARN MORE",
+            "button_link": "shopify:\/\/blogs\/shorts"
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2",
-        "item-3"
+        "template--16615735591140__1c245b98-576c-481f-9a52-ca7e7fff1567-16678519610f101344-0"
       ],
       "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "right",
+        "text_alignment": "center",
+        "cycle_speed": 7,
+        "accent_background": "#c3ebcf",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "testimonials": {
-      "type": "testimonials",
+    "6e87edbe-44e0-481c-a422-a3a679ccb82f": {
+      "type": "featured-collections",
       "blocks": {
-        "testimonial-1": {
-          "type": "testimonial",
+        "template--16615735591140__6e87edbe-44e0-481c-a422-a3a679ccb82f-1667851960035fa872-0": {
+          "type": "collection",
           "settings": {
+            "collection": "best-sellers",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
           }
         }
       },
       "block_order": [
-        "testimonial-1"
+        "template--16615735591140__6e87edbe-44e0-481c-a422-a3a679ccb82f-1667851960035fa872-0"
       ],
       "settings": {
+        "subheading": "",
+        "title": "Top Sellers",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
-    "featured-product": {
+    "7fbd2165-5f64-4b82-91e5-541db0ab4b45": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16615735591140__7fbd2165-5f64-4b82-91e5-541db0ab4b45-166792096558aa0b74-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/composed-1.png",
+            "dot_type": "inverted",
+            "product_1": "bungalow-rope-bracelet",
+            "product_1_horizontal_position": 13,
+            "product_1_vertical_position": 58,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "light-pink-chunky-gem-ring",
+            "product_2_horizontal_position": 61,
+            "product_2_vertical_position": 26,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "eternity-gem-ring-2",
+            "product_3_horizontal_position": 95,
+            "product_3_vertical_position": 48,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "bea0b047-9559-43fa-8dc1-47296685f934": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/composed-2.png",
+            "dot_type": "normal",
+            "product_1": "three-stone-adjustable-ring",
+            "product_1_horizontal_position": 29,
+            "product_1_vertical_position": 48,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "bracelet-2",
+            "product_2_horizontal_position": 45,
+            "product_2_vertical_position": 58,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "three-stone-adjustable-ring-black",
+            "product_3_horizontal_position": 94,
+            "product_3_vertical_position": 25,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "template--16615735591140__7fbd2165-5f64-4b82-91e5-541db0ab4b45-166792096558aa0b74-0",
+        "bea0b047-9559-43fa-8dc1-47296685f934"
+      ],
+      "settings": {
+        "custom_class": "lightblue-background homepage-shop-the-look",
+        "reveal_on_scroll": true,
+        "label": "shop the look"
+      }
+    },
+    "bac8a369-e40b-437c-9c7c-fe2bc57db131": {
       "type": "featured-product",
       "blocks": {
-        "variant-picker": {
+        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-0": {
           "type": "variant_picker",
           "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
           }
         },
-        "quantity-selector": {
+        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-1": {
           "type": "quantity_selector",
           "settings": {
           }
         },
-        "buy-buttons": {
+        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-2": {
           "type": "buy_buttons",
           "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "#000000",
+            "atc_button_text_color": "#ffffff",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         }
       },
       "block_order": [
-        "variant-picker",
-        "quantity-selector",
-        "buy-buttons"
+        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-0",
+        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-1",
+        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-2"
       ],
       "settings": {
+        "product": "three-stone",
+        "subheading": "",
+        "title": "New Drop",
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": false,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     },
-    "text-with-icons": {
-      "type": "text-with-icons",
+    "ea8b726b-4724-4cdb-a521-cd7c222ae151": {
+      "type": "logo-list",
       "blocks": {
-        "item-1": {
-          "type": "item",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-0": {
+          "type": "logo",
           "settings": {
-            "icon": "picto-box",
-            "title": "Free shipping",
-            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+            "logo": "shopify:\/\/shop_images\/image_56.png",
+            "link": "",
+            "logo_width": "100"
           }
         },
-        "item-2": {
-          "type": "item",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-1": {
+          "type": "logo",
           "settings": {
-            "icon": "picto-phone",
-            "title": "Customer service",
-            "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+            "logo": "shopify:\/\/shop_images\/image_55.png",
+            "link": "",
+            "logo_width": "100"
           }
         },
-        "item-3": {
-          "type": "item",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-2": {
+          "type": "logo",
           "settings": {
-            "icon": "picto-lock",
-            "title": "Secure payment",
-            "content": "<p>Your payment information is processed securely.<\/p>"
+            "logo": "shopify:\/\/shop_images\/image_58.png",
+            "link": "",
+            "logo_width": "100"
           }
         },
-        "item-4": {
-          "type": "item",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-3": {
+          "type": "logo",
           "settings": {
-            "icon": "picto-email",
-            "title": "Contact us",
-            "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+            "logo": "shopify:\/\/shop_images\/image_59.png",
+            "link": "",
+            "logo_width": "100"
+          }
+        },
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-4": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/image_57.png",
+            "link": "",
+            "logo_width": "100"
           }
         }
       },
       "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "item-4"
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-0",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-1",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-2",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-3",
+        "template--16615735591140__ea8b726b-4724-4cdb-a521-cd7c222ae151-16679283596aede180-4"
       ],
       "settings": {
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "settings": {
+        "custom_class": "homepage-logo-list lightblue-background",
+        "reveal_on_scroll": true,
+        "subheading": "",
+        "title": "Featured In",
+        "button_text": "",
+        "button_link": "",
+        "stack_logos": true,
+        "background": "#f0f6fa",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)",
+        "logo_background": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
     "slideshow",
     "featured-collections",
-    "image-with-text",
-    "shop-the-look",
-    "blog-posts",
-    "image-with-text-block",
     "collection-list",
-    "testimonials",
-    "timeline",
-    "featured-product",
-    "text-with-icons",
-    "newsletter"
+    "1c245b98-576c-481f-9a52-ca7e7fff1567",
+    "6e87edbe-44e0-481c-a422-a3a679ccb82f",
+    "7fbd2165-5f64-4b82-91e5-541db0ab4b45",
+    "bac8a369-e40b-437c-9c7c-fe2bc57db131",
+    "ea8b726b-4724-4cdb-a521-cd7c222ae151"
   ]
 }

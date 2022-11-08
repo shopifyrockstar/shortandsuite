@@ -36,7 +36,7 @@
                 {%- assign menu = block.settings.menu -%}
 
                 {%- if menu != blank -%}
-                  <p class="footer__item-title heading heading--small">{{ menu.title }}</p>
+                  <p class="footer__item-title heading heading--small">{{ block.settings.title }}</p>
 
                   <div class="footer__item-content">
                     <ul class="linklist list--unstyled" role="list">
@@ -107,6 +107,7 @@
         {%- endfor -%}
       </div>
 
+      {% comment %}
       <div class="footer__aside">
         {%- if section.settings.show_country_selector and localization.available_countries.size > 1 -%}
           {%- assign country_selector = true -%}
@@ -206,6 +207,7 @@
           </div>
         {%- endif -%}
       </div>
+      {% endcomment %}
     </div>
   </div>
 </footer>
@@ -330,6 +332,11 @@
       "type": "links",
       "name": "Links",
       "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        },
         {
           "type": "link_list",
           "id": "menu",
