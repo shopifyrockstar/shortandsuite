@@ -46,7 +46,7 @@
   }
 </style>
 
-<section class="section {% unless blends_with_background or is_boxed %}section--flush{% endunless %}">
+<section class="section {% unless blends_with_background or is_boxed %}section--flush{% endunless %} {{ section.settings.custom_class }}">
   <div class="section__color-wrapper">
     <div class="container {% unless blends_with_background %}vertical-breather{% endunless %}">
       <header class="section__header text-container">
@@ -64,7 +64,7 @@
           {%- for block in section.blocks -%}
             {%- capture logo_content -%}
               {%- if block.settings.logo != blank -%}
-                {%- assign logo_max_size = block.settings.logo.width | divided_by: 2 | at_most: 200 -%}
+                {%- assign logo_max_size = block.settings.logo_width | at_most: 200 -%}
                 {%- capture logo_sizes -%}{{ logo_max_size }},{{ logo_max_size | times: 2 }}{%- endcapture -%}
                 <img loading="lazy" sizes="{{ logo_max_size }}px" style="width: {{ logo_max_size }}px" class="logo-list__image" {% render 'image-attributes', image: block.settings.logo, sizes: logo_sizes %}>
               {%- else -%}
@@ -133,6 +133,11 @@
   "name": "Logo list",
   "class": "shopify-section--logo-list",
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
     {
       "type": "checkbox",
       "id": "reveal_on_scroll",
@@ -218,6 +223,11 @@
           "type": "url",
           "id": "link",
           "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "logo_width",
+          "label": "Logo Width"
         }
       ]
     }

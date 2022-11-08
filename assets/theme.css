@@ -14946,3 +14946,17 @@ shopify-payment-terms {
     scroll-snap-align: center;
   }
 }
+
+
+/* css for homepage */
+.lightblue-background{
+  background-color: #F0F6FA;
+}
+
+.homepage-shop-the-look .shop-the-look{
+  /* max-width: 1400px;
+  margin: 0 auto; */
+}
+.homepage-shop-the-look .shop-the-look__item-list .shop-the-look__dot{
+  box-shadow: 0 0 0 8px rgb(255 255 255) inset, 0 1px 5px #00000026;
+}

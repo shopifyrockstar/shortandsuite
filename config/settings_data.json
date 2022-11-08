@@ -3,14 +3,17 @@
     "button_border_radius": 4,
     "block_border_radius": "small",
     "heading_color": "#1a1a1a",
-    "text_color": "#1a1a1a",
+    "text_color": "#000000",
+    "background": "#ffffff",
     "secondary_background": "#f5f1ec",
     "success_color": "#2e9e7b",
     "error_color": "#de2a2a",
-    "header_background": "#56112a",
-    "footer_background": "#56112a",
-    "footer_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_text_color": "#000000",
+    "footer_background": "#ffffff",
+    "footer_text_color": "#000000",
     "primary_button_background": "#56112a",
+    "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#f7aea6",
     "secondary_button_text_color": "#56112a",
     "product_on_sale_accent": "#913b59",
@@ -45,6 +48,12 @@
           "message-1": {
             "type": "message",
             "settings": {
+              "text": "Announce something here",
+              "learn_more_text": "Learn more",
+              "title": "",
+              "content": "",
+              "button_text": "",
+              "button_link": ""
             }
           }
         },
@@ -66,51 +75,103 @@
         "type": "header",
         "settings": {
           "enable_sticky_header": true,
-          "navigation_menu": "main-menu",
+          "logo": "shopify:\/\/shop_images\/Asset_1_4x_1.png",
+          "logo_max_width": 140,
+          "mobile_logo_max_width": 100,
+          "navigation_menu": "dev-menu",
+          "sidebar_navigation_menu": "",
           "header_layout": "logo_center_navigation_inline",
           "show_icons": false,
           "reduce_desktop_padding": false,
+          "show_locale_selector": true,
+          "show_country_selector": false,
           "enable_transparent_header": false,
-          "transparent_header_text_color": "#ffffff"
+          "transparent_header_text_color": "#ffffff",
+          "search_menu": ""
         }
       },
       "footer": {
         "type": "footer",
         "blocks": {
-          "text": {
-            "type": "text",
-            "settings": {
-            }
-          },
           "links": {
             "type": "links",
             "settings": {
+              "title": "All Jewelry",
               "menu": "footer"
             }
           },
-          "newsletter": {
-            "type": "newsletter",
+          "121cc7b3-c2d8-4bdb-afcb-b4a2bad9d0fa": {
+            "type": "links",
             "settings": {
+              "title": "Learn More",
+              "menu": "footer-menu-2"
+            }
+          },
+          "f6057c44-d910-4a32-bcef-cbf3c9e55d1d": {
+            "type": "links",
+            "settings": {
+              "title": "Support",
+              "menu": "footer-menu-3"
             }
           },
           "social_media": {
             "type": "social_media",
             "settings": {
+              "title": "Follow us",
+              "content": ""
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Receive 20% off your email when you sign up for our newsletter.<\/p>"
             }
           }
         },
         "block_order": [
-          "text",
           "links",
-          "newsletter",
-          "social_media"
+          "121cc7b3-c2d8-4bdb-afcb-b4a2bad9d0fa",
+          "f6057c44-d910-4a32-bcef-cbf3c9e55d1d",
+          "social_media",
+          "newsletter"
         ],
         "settings": {
+          "show_payment_icons": true,
+          "show_country_selector": true,
+          "show_locale_selector": true,
+          "show_cookie_bar": false,
+          "cookie_bar_title": "Cookie policy",
+          "cookie_bar_content": "<p>I agree to the processing of my data in accordance with the conditions set out in the policy of Privacy.<\/p>"
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "enable": false,
+          "apparition_delay": 5,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "image_position": "left",
+          "title": "Get 10% off",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "mini-cart": {
+        "type": "mini-cart",
+        "settings": {
+          "show_order_note": true,
+          "show_checkout_button": true,
+          "empty_button_link": "shopify:\/\/collections\/all",
+          "show_recommendations": true,
+          "recommendations_title": "You may also like"
         }
       }
     },
-    "header_text_color": "#ffffff",
-    "primary_button_text_color": "#ffffff"
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Carbon": {
