@@ -6,6 +6,10 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
           }
         },
         "quantity_selector": {
@@ -16,6 +20,11 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_payment_button": true,
+            "atc_button_background": "#ffffff",
+            "atc_button_text_color": "#000000",
+            "buy_now_button_background": "#000000",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
           }
         }
       },
@@ -25,6 +34,19 @@
         "buy_buttons"
       ],
       "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": true,
+        "show_sticky_add_to_cart": true,
+        "show_share_buttons": true,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide"
       }
     },
     "product-content": {
@@ -34,23 +56,92 @@
           "type": "description",
           "settings": {
           }
+        },
+        "caa1b560-7e4f-461d-a9f5-468faeabf28b": {
+          "type": "reviews",
+          "settings": {
+          }
+        },
+        "c5e56397-76de-45a2-a110-ca7140e1cbc2": {
+          "type": "trust",
+          "settings": {
+            "icon_1": "picto-delivery-truck",
+            "title_1": "Shipping & Returns",
+            "content_1": "",
+            "icon_2": "picto-lock",
+            "title_2": "Secure Payment",
+            "content_2": "",
+            "icon_3": "picto-email",
+            "title_3": "Customer Service",
+            "content_3": ""
+          }
+        },
+        "1e63b4e8-724c-432d-96ef-9e0f60547a02": {
+          "type": "featured_products",
+          "settings": {
+            "title": "SIMILAR PRODUCTS",
+            "product_1": "eternity-gem-tennis-necklace-crystal",
+            "product_2": "bungalow-rope-bracelet"
+          }
         }
       },
       "block_order": [
-        "description"
+        "description",
+        "caa1b560-7e4f-461d-a9f5-468faeabf28b",
+        "c5e56397-76de-45a2-a110-ca7140e1cbc2",
+        "1e63b4e8-724c-432d-96ef-9e0f60547a02"
       ],
       "settings": {
+      }
+    },
+    "8108cced-efed-4179-a704-5deadbe10a9b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16615735820516__8108cced-efed-4179-a704-5deadbe10a9b-16680155442dfb405d-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_17.png",
+            "tab_label": "Item",
+            "subheading": "ABOUT SHORT & SUITE",
+            "title": "Inspired by Paris Fashion Week and '90s Nostalgia",
+            "content": "<p>Gone for now are the days of slipping into something more elevated than athleisure and putting on a pair of pretty earrings to pop by for a visit somewhere. To the rescue is Short & Suite, an affordable luxury jewelry brand based out of Los Angeles that's making wearers feel glam during grim times.<\/p>",
+            "button_text": "LEARN MORE",
+            "button_link": "shopify:\/\/blogs\/shorts"
+          }
+        }
+      },
+      "block_order": [
+        "template--16615735820516__8108cced-efed-4179-a704-5deadbe10a9b-16680155442dfb405d-0"
+      ],
+      "settings": {
+        "custom_class": "product-page-image-with-text desktop-show",
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "both",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "#f0f6fa",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
       }
     },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
+        "subheading": "",
+        "title": "Customers Also Travel With",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
     "main",
     "product-content",
+    "8108cced-efed-4179-a704-5deadbe10a9b",
     "product-recommendations"
   ]
 }

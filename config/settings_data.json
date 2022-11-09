@@ -12,7 +12,7 @@
     "header_text_color": "#000000",
     "footer_background": "#ffffff",
     "footer_text_color": "#000000",
-    "primary_button_background": "#56112a",
+    "primary_button_background": "#000000",
     "primary_button_text_color": "#ffffff",
     "secondary_button_background": "#f7aea6",
     "secondary_button_text_color": "#56112a",
@@ -33,9 +33,10 @@
     "show_secondary_image": true,
     "show_product_rating": false,
     "product_color_display": "count",
-    "product_image_size": "natural",
+    "product_image_size": "square",
     "cart_type": "drawer",
     "cart_show_free_shipping_threshold": true,
+    "social_instagram": "https:\/\/www.instagram.com\/short_andsuite",
     "checkout_sidebar_background_color": "#f6f3ed",
     "checkout_accent_color": "#353535",
     "checkout_button_color": "#353535",
@@ -166,6 +167,73 @@
           "empty_button_link": "shopify:\/\/collections\/all",
           "show_recommendations": true,
           "recommendations_title": "You may also like"
+        }
+      },
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
+        "blocks": {
+          "static-text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-box",
+              "custom_icon_width": 50,
+              "title": "Free shipping",
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
+            }
+          },
+          "static-text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-phone",
+              "custom_icon_width": 50,
+              "title": "Customer service",
+              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
+            }
+          },
+          "static-text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-lock",
+              "custom_icon_width": 50,
+              "title": "Secure payment",
+              "content": "<p>Your payment information is processed securely.<\/p>"
+            }
+          },
+          "static-text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-email",
+              "custom_icon_width": 50,
+              "title": "Contact us",
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "static-text-with-icons-0",
+          "static-text-with-icons-1",
+          "static-text-with-icons-2",
+          "static-text-with-icons-3"
+        ],
+        "settings": {
+          "show_section": false,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "reveal_on_scroll": true,
+          "subheading": "Subscribe to our newsletter",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "text_position": "right",
+          "text_alignment": "left",
+          "text_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
         }
       }
     },
