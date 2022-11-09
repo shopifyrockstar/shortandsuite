@@ -72,7 +72,7 @@
   {%- endif -%}
 </style>
 
-<section class="section {% if section.settings.background_overlap == 'both' and is_boxed == false %}section--flush{% endif %}">
+<section class="section {% if section.settings.background_overlap == 'both' and is_boxed == false %}section--flush{% endif %} {{ section.settings.custom_class }}">
   <div {% if is_boxed %}class="container"{% endif %}>
     {%- assign first_block = section.blocks.first -%}
 
@@ -153,6 +153,11 @@
   "class": "shopify-section--image-with-text",
   "max_blocks": 2,
   "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom Class"
+    },
     {
       "type": "checkbox",
       "id": "reveal_on_scroll",
