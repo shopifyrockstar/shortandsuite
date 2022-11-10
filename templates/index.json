@@ -6,46 +6,30 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Hero.png",
+            "mobile_image": "shopify:\/\/shop_images\/Group_54.png",
             "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "button_1_text": "",
-            "button_1_link": "",
+            "subheading": "Luxurious and high-quality products to meet the <br>needs of high-end luxury travelers on the go.",
+            "title": "Love life’s <br><b>little<\/b> luxuries",
+            "button_1_text": "SHOP NOW",
+            "button_1_link": "shopify:\/\/products\/bridal-bracelet-yellow",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
+            "text_color": "#000000",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "slide-2": {
-          "type": "image",
-          "settings": {
-            "text_position": "middle_center",
-            "subheading": "Tell your story",
-            "title": "Slide 2",
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_2_text": "",
-            "button_2_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide-1",
-        "slide-2"
+        "slide-1"
       ],
       "settings": {
         "section_height": "auto",
         "transition_type": "sweep",
-        "autoplay": true,
+        "autoplay": false,
         "cycle_speed": 5,
         "background": "rgba(0,0,0,0)"
       }
@@ -171,6 +155,7 @@
         "template--16615735591140__1c245b98-576c-481f-9a52-ca7e7fff1567-16678519610f101344-0"
       ],
       "settings": {
+        "custom_class": "",
         "reveal_on_scroll": true,
         "background_type": "full_width",
         "background_overlap": "image",
@@ -266,9 +251,67 @@
         "bea0b047-9559-43fa-8dc1-47296685f934"
       ],
       "settings": {
-        "custom_class": "lightblue-background homepage-shop-the-look",
+        "custom_class": "lightblue-background homepage-shop-the-look desktop-show",
         "reveal_on_scroll": true,
         "label": "shop the look"
+      }
+    },
+    "ae65ef9d-0372-419f-a3bc-0b85f06ca391": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16615735591140__ae65ef9d-0372-419f-a3bc-0b85f06ca391-16680896326ba32008-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_24_1.png",
+            "dot_type": "inverted",
+            "product_1": "bungalow-rope-bracelet",
+            "product_1_horizontal_position": 40,
+            "product_1_vertical_position": 58,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 46,
+            "product_2_vertical_position": 64,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 62,
+            "product_3_vertical_position": 50,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        },
+        "9c53fc3a-da44-4813-a4f3-f98be5869f59": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_22.png",
+            "dot_type": "normal",
+            "product_1": "light-pink-chunky-gem-ring",
+            "product_1_horizontal_position": 82,
+            "product_1_vertical_position": 26,
+            "product_1_horizontal_position_mobile": 30,
+            "product_1_vertical_position_mobile": 30,
+            "product_2": "",
+            "product_2_horizontal_position": 50,
+            "product_2_vertical_position": 50,
+            "product_2_horizontal_position_mobile": 50,
+            "product_2_vertical_position_mobile": 50,
+            "product_3": "",
+            "product_3_horizontal_position": 70,
+            "product_3_vertical_position": 70,
+            "product_3_horizontal_position_mobile": 70,
+            "product_3_vertical_position_mobile": 70
+          }
+        }
+      },
+      "block_order": [
+        "template--16615735591140__ae65ef9d-0372-419f-a3bc-0b85f06ca391-16680896326ba32008-0",
+        "9c53fc3a-da44-4813-a4f3-f98be5869f59"
+      ],
+      "settings": {
+        "custom_class": "mobile-show homepage-shop-the-look",
+        "reveal_on_scroll": true,
+        "label": ""
       }
     },
     "bac8a369-e40b-437c-9c7c-fe2bc57db131": {
@@ -398,6 +441,7 @@
     "1c245b98-576c-481f-9a52-ca7e7fff1567",
     "6e87edbe-44e0-481c-a422-a3a679ccb82f",
     "7fbd2165-5f64-4b82-91e5-541db0ab4b45",
+    "ae65ef9d-0372-419f-a3bc-0b85f06ca391",
     "bac8a369-e40b-437c-9c7c-fe2bc57db131",
     "ea8b726b-4724-4cdb-a521-cd7c222ae151"
   ]

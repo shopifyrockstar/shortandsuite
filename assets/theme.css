@@ -14970,6 +14970,79 @@ shopify-payment-terms {
 .lightblue-background{
   background-color: #F0F6FA;
 }
+.header__cart-count{
+  background: #C3EBCF;
+  color: black;
+}
+
+
+.slideshow__slide-inner{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.slideshow__slide-inner::before{
+  display: none;
+}
+.slideshow__slide-inner .slideshow__image-wrapper {
+  position: relative;
+  width: 60%;
+  left: unset;
+  top: unset;
+}
+.slideshow__slide-inner .slideshow__image-wrapper img{
+  position: relative;
+  width: 100%;
+}
+.slideshow__slide-inner .container{
+  width: 40%;
+  max-width: unset;
+}
+.slideshow__slide-inner .container .content-box{
+  text-align: left;
+  width: 100%;
+}
+.slideshow__slide-inner .container .content-box .heading--large{
+  font-size: 4vw;
+}
+.slideshow__slide-inner .container .content-box .heading--small{
+  text-transform: unset;
+  font-size: 1vw;
+}
+@media screen and (max-width: 999px){
+  .slideshow__slide-inner .container .content-box .heading--large{
+    margin-bottom: 20px;
+  }
+  .slideshow__slide-inner .container .content-box .button-wrapper .button{
+    padding: 0 15px;
+    line-height: 35px; 
+  }
+}
+@media screen and (max-width: 740px){
+  .slideshow__slide-inner{
+    flex-direction: column-reverse;
+  }
+  .slideshow__slide-inner .container, .slideshow__slide-inner .slideshow__image-wrapper{
+    width: 100%;
+  }
+  .slideshow__slide-inner .container .content-box{
+    margin: 0;
+    text-align: center;
+  }
+  .slideshow__slide-inner .container .content-box .heading--large{
+    font-size: 30px;
+  }
+  .slideshow__slide-inner .container .content-box .heading--small{
+    text-transform: unset;
+    font-size: 12px;
+  }
+  .slideshow__slide-inner .container .content-box .button-wrapper .button{
+    padding: 0 30px;
+    line-height: 40px;
+  }
+}
+
+
 
 .homepage-shop-the-look .shop-the-look{
   /* max-width: 1400px;
