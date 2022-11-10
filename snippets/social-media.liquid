@@ -26,7 +26,8 @@
 
     <li class="social-media__item social-media__item--instagram">
       <a href="{{ settings.social_instagram | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'Instagram' }}">
-        {%- render 'icon' with 'instagram' -%}
+        {% comment %} {%- render 'icon' with 'instagram' -%} {% endcomment %}
+        <img src="{{ 'icon-instagram.png' | asset_img_url: 'master' }}">
       </a>
     </li>
   {%- endif -%}
@@ -56,7 +57,8 @@
 
     <li class="social-media__item social-media__item--tiktok">
       <a href="{{ settings.social_tiktok | replace_first: 'https://', '' | replace_first: 'http://', '' | prepend: 'https://' }}" target="_blank" rel="noopener" class="social-media__link" aria-label="{{ 'general.social.follow_label' | t: social_media: 'TikTok' }}">
-        {%- render 'icon' with 'tiktok' -%}
+        {% comment %} {%- render 'icon' with 'tiktok' -%} {% endcomment %}
+        <img src="{{ 'icon-tiktok.png' | asset_img_url: 'master' }}">
       </a>
     </li>
   {%- endif -%}

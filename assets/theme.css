@@ -14974,6 +14974,13 @@ shopify-payment-terms {
   background: #C3EBCF;
   color: black;
 }
+.footer__item-content .social-media .social-media__item{
+  box-shadow: unset;
+}
+.footer__item-content .social-media .social-media__item:hover:before{
+  display: none;
+}
+
 
 
 .slideshow__slide-inner{
@@ -15003,15 +15010,25 @@ shopify-payment-terms {
   width: 100%;
 }
 .slideshow__slide-inner .container .content-box .heading--large{
-  font-size: 4vw;
+  font-size: 3.2vw;
 }
 .slideshow__slide-inner .container .content-box .heading--small{
   text-transform: unset;
-  font-size: 1vw;
+  font-size: 0.9vw;
+  line-height: 24px;
+}
+.button.button--primary{
+  padding: 15px 45px;
+  line-height: 17px;
+  border-radius: 0;
+  font-weight: 400;
+  max-width: 300px;
+  font-family: Montserrat, sans-serif;
 }
 @media screen and (max-width: 999px){
   .slideshow__slide-inner .container .content-box .heading--large{
-    margin-bottom: 20px;
+    font-size: 48px;
+    line-height: 53px;
   }
   .slideshow__slide-inner .container .content-box .button-wrapper .button{
     padding: 0 15px;
@@ -15030,23 +15047,66 @@ shopify-payment-terms {
     text-align: center;
   }
   .slideshow__slide-inner .container .content-box .heading--large{
-    font-size: 30px;
+    font-size: 48px;
+    line-height: 53px;
+    margin-bottom: 15px;
   }
   .slideshow__slide-inner .container .content-box .heading--small{
     text-transform: unset;
-    font-size: 12px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0;
+    margin-bottom: 40px;
   }
   .slideshow__slide-inner .container .content-box .button-wrapper .button{
     padding: 0 30px;
     line-height: 40px;
   }
+  .shopify-section--featured-collections section.section{
+    margin-top: 0;
+  }
+  .homepage-logo-list .logo-list__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px 0;
+  }
+  .homepage-logo-list .logo-list__list .logo-list__item{
+    width: calc(33.33% - 5px );
+    padding: 5px;
+  }
 }
 
+.shopify-section--featured-collections section.section .product-item__quick-buy-button{
+  display: none;
+}
 
+.shopify-section--collection-list p{
+  color:black;
+  text-decoration: underline;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
 
+.shopify-section--featured-collections .tabs-nav__item-list button{
+  font-family: Montserrat, sans-serif;
+}
+
+.homepage-shop-the-look .container.vertical-breather{
+  max-width: 1140px;
+}
 .homepage-shop-the-look .shop-the-look{
-  /* max-width: 1400px;
-  margin: 0 auto; */
+  overflow: visible;
+}
+.homepage-shop-the-look .shop-the-look__nav{
+  left: -100px;
+  z-index: 99;
+  overflow: auto;
+}
+@media (max-width:1300px){
+  .homepage-shop-the-look .shop-the-look__nav{
+    left: unset;
+  }
 }
 .homepage-shop-the-look .shop-the-look__item-list .shop-the-look__dot{
   box-shadow: 0 0 0 8px rgb(255 255 255) inset, 0 1px 5px #00000026;
@@ -15060,6 +15120,38 @@ shopify-payment-terms {
 }
 
 
+.shopify-section--image-with-text h2{
+  font-family: Montserrat, sans-serif;
+}
+.shopify-section--image-with-text .button-wrapper .button--primary{
+  font-family: Montserrat, sans-serif;
+  line-height: 17px;
+  padding: 15px 35px;
+  border-radius: 0;
+  font-weight: 400;
+}
+
+.shop-the-look__product-info .shop-the-look__product-title{
+  font-family: Montserrat, sans-serif;
+}
+.shop-the-look__product-info .shop-the-look__product-bottom-wrapper, .shop-the-look__product-info .shop-the-look__product-bottom-wrapper button{
+  font-family: Montserrat, sans-serif;
+}
+
+
+.shopify-section--featured-product .price-list{
+  font-family: Montserrat, sans-serif;
+}
+
+
+
+
+#stories{
+  display: none !important;
+}
+.footer__inner input[type="email"]{
+  border-radius: 16px;
+}
 
 /* collection page */
 @media (max-width:740px){
