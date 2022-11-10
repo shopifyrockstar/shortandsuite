@@ -63,46 +63,25 @@
         {%- endif -%}
 
         {%- capture slide_content -%}
-          <div class="slideshow__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-            {%- if image != blank -%}
-              {%- capture sizes_attributes -%}{% if split_image != blank %}(min-width: 1000px) 50vw{% else %}100vw{% endif %}{%- endcapture -%}
-              {{- image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: sizes_attributes, widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-            {%- else -%}
-              {% capture image_name %}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
-              {{- image_name | placeholder_svg_tag: 'slideshow__image slideshow__image--placeholder' -}}
-            {%- endif -%}
-          </div>
 
-          {%- comment -%}If a second image (split image) is uploaded, we use it. Note that we use the same ratio as the first image (to have equal column height){% endcomment %}
-          {%- if image != blank and split_image != blank -%}
-            <div class="slideshow__image-wrapper slideshow__image-wrapper--secondary hidden-pocket" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-              {{- split_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '50vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-            </div>
-          {%- endif -%}
-
-          {%- if mobile_image != blank -%}
-            <div class="slideshow__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
-              {{- mobile_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
-            </div>
-          {%- endif -%}
-
-          {%- comment -%}
+        {%- comment -%}
           ----------------------------------------------------------------------------------------------------------------
           CONTENT PART
           ----------------------------------------------------------------------------------------------------------------
           {%- endcomment -%}
 
-          {%- capture section_content -%}
-            {%- if block.settings.subheading != blank -%}
-              <h2 class="heading heading--small">
-                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.subheading | escape }}</split-lines>
-              </h2>
-            {%- endif -%}
+          {%- capture section_content -%}            
 
             {%- if block.settings.title != blank -%}
-              <h3 class="heading heading--large">
-                <split-lines {% if section.settings.transition_type != 'fade' %}reveal{% endif %}>{{ block.settings.title | escape }}</split-lines>
-              </h3>
+              <div class="heading heading--large">                
+                {{ block.settings.title }}
+              </div>
+            {%- endif -%}
+
+            {%- if block.settings.subheading != blank -%}
+              <h2 class="heading heading--small">
+                {{ block.settings.subheading }}
+              </h2>
             {%- endif -%}
 
             {%- capture buttons -%}
@@ -140,6 +119,31 @@
               </div>
             </div>
           {%- endif -%}
+
+          <div class="slideshow__image-wrapper {% if mobile_image != blank %}hidden-pocket{% endif %}" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+            {%- if image != blank -%}
+              {%- capture sizes_attributes -%}{% if split_image != blank %}(min-width: 1000px) 50vw{% else %}100vw{% endif %}{%- endcapture -%}
+              {{- image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: sizes_attributes, widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            {%- else -%}
+              {% capture image_name %}lifestyle-{% cycle '1', '2' %}{%- endcapture -%}
+              {{- image_name | placeholder_svg_tag: 'slideshow__image slideshow__image--placeholder' -}}
+            {%- endif -%}
+          </div>
+
+          {%- comment -%}If a second image (split image) is uploaded, we use it. Note that we use the same ratio as the first image (to have equal column height){% endcomment %}
+          {%- if image != blank and split_image != blank -%}
+            <div class="slideshow__image-wrapper slideshow__image-wrapper--secondary hidden-pocket" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+              {{- split_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '50vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            </div>
+          {%- endif -%}
+
+          {%- if mobile_image != blank -%}
+            <div class="slideshow__image-wrapper hidden-lap-and-up" {% if section.settings.transition_type == 'reveal' %}reveal-visibility{% endif %}>
+              {{- mobile_image | image_url: width: 3000 | image_tag: loading: loading_attribute_value, draggable: false, class: 'slideshow__image', sizes: '100vw', widths: '600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000' -}}
+            </div>
+          {%- endif -%}
+
+          
         {%- endcapture -%}
 
         {%- comment -%}If only the button 1 link is filled, then we make the whole slide clickable{%- endcomment -%}
@@ -331,16 +335,14 @@
           "default": "middle_center"
         },
         {
-          "type": "text",
+          "type": "textarea",
           "id": "subheading",
-          "label": "Subheading",
-          "default": "Tell your story"
+          "label": "Subheading"
         },
         {
-          "type": "text",
+          "type": "textarea",
           "id": "title",
-          "label": "Heading",
-          "default": "Slide title"
+          "label": "Heading"
         },
         {
           "type": "text",
@@ -411,13 +413,11 @@
         {
           "type": "image",
           "settings": {
-            "title": "Slide 1"
           }
         },
         {
           "type": "image",
           "settings": {
-            "title": "Slide 2"
           }
         }
       ]
