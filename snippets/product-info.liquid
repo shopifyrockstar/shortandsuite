@@ -24,6 +24,10 @@
       </h2>
     {% endunless %}
 
+    {% if product.metafields.custom.influencer_name != blank %}      
+      <p class="influencer-name">{{ product.metafields.custom.influencer_name }}</p>      
+    {% endif %}
+
     <div class="product-meta__price-list-container" role="region" aria-live="polite">
       <div class="price-list" data-product-price-list>
         {%- if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price -%}

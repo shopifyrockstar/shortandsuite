@@ -2566,6 +2566,7 @@ p + .button-group,
   display: inline-flex;
   flex-wrap: wrap;
   align-items: baseline;
+  font-family: "CapitoliumNews2-Regular";
 }
 
 .price-list--centered {
@@ -12702,6 +12703,7 @@ shopify-payment-terms {
   display: block;
   line-height: 1.6;
   margin-bottom: 4px;
+  font-family: "CapitoliumNews2-Regular";
 }
 
 .product-item-meta__reviews-badge {
@@ -14966,14 +14968,174 @@ shopify-payment-terms {
   }
 }
 
+/* @font-face {
+  font-family: "CapitoliumNews2";
+  src: url(//cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.otf?v=1668446255) format("otf");  
+} */
+
+@font-face {
+  font-family: "CapitoliumNews2-Regular";
+  src: url("https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.otf?v=1668446255") format("otf"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.eot?v=1668447036') format("eot"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.svg?v=1668447100') format("svg"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.ttf?v=1668447144') format("ttf"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.woff?v=1668447168') format("woff"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.woff2?v=1668447192') format("woff2");
+}
 /* css for homepage */
 .lightblue-background{
   background-color: #F0F6FA;
 }
+.header__cart-count{
+  background: #C3EBCF;
+  color: black;
+}
+.footer__item-content .social-media .social-media__item{
+  box-shadow: unset;
+}
+.footer__item-content .social-media .social-media__item:hover:before{
+  display: none;
+}
 
+
+
+.slideshow__slide-inner{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.slideshow__slide-inner::before{
+  display: none;
+}
+.slideshow__slide-inner .slideshow__image-wrapper {
+  position: relative;
+  width: 60%;
+  left: unset;
+  top: unset;
+}
+.slideshow__slide-inner .slideshow__image-wrapper img{
+  position: relative;
+  width: 100%;
+}
+.slideshow__slide-inner .container{
+  width: 40%;
+  max-width: unset;
+}
+.slideshow__slide-inner .container .content-box{
+  text-align: left;
+  width: 100%;
+}
+.slideshow__slide-inner .container .content-box .heading--large{
+  font-size: 3.2vw;
+  font-family: "CapitoliumNews2-Regular";
+}
+.slideshow__slide-inner .container .content-box .heading--small{
+  text-transform: unset;
+  font-size: 0.9vw;
+  line-height: 24px;
+  font-family: "CapitoliumNews2-Regular";
+  font-weight: normal;
+}
+.button.button--primary{
+  padding: 15px 45px;
+  line-height: 17px;
+  border-radius: 0;
+  font-weight: 400;
+  max-width: 300px;
+  font-family: Montserrat, sans-serif;
+}
+@media screen and (max-width: 999px){
+  .slideshow__slide-inner .container .content-box .heading--large{
+    font-size: 48px;
+    line-height: 53px;
+  }
+  .slideshow__slide-inner .container .content-box .button-wrapper .button{
+    padding: 0 15px;
+    line-height: 35px; 
+  }
+}
+@media screen and (max-width: 740px){
+  .slideshow__slide-inner{
+    flex-direction: column-reverse;
+  }
+  .slideshow__slide-inner .container, .slideshow__slide-inner .slideshow__image-wrapper{
+    width: 100%;
+  }
+  .slideshow__slide-inner .container .content-box{
+    margin: 0;
+    text-align: center;
+  }
+  .slideshow__slide-inner .container .content-box .heading--large{
+    font-size: 48px;
+    line-height: 53px;
+    margin-bottom: 15px;
+  }
+  .slideshow__slide-inner .container .content-box .heading--small{
+    text-transform: unset;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+  }
+  .slideshow__slide-inner .container .content-box .button-wrapper .button{
+    padding: 0 30px;
+    line-height: 40px;
+  }
+  .shopify-section--featured-collections section.section{
+    margin-top: 0;
+  }
+  .homepage-logo-list .logo-list__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px 0;
+  }
+  .homepage-logo-list .logo-list__list .logo-list__item{
+    width: calc(33.33% - 5px );
+    padding: 5px;
+  }
+}
+
+
+
+.shopify-section--featured-collections section.section .section__header .text-container .heading{  
+  font-family: "CapitoliumNews2-Regular";
+}
+.shopify-section--featured-collections section.section .product-item__quick-buy-button{
+  display: none;
+}
+
+
+
+.shopify-section--collection-list .section__header .heading {
+  font-family: "CapitoliumNews2-Regular";
+}
+.shopify-section--collection-list p{
+  color:black;
+  text-decoration: underline;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+.shopify-section--featured-collections .tabs-nav__item-list button{
+  font-family: Montserrat, sans-serif;
+}
+
+.homepage-shop-the-look .container.vertical-breather{
+  max-width: 1140px;
+}
 .homepage-shop-the-look .shop-the-look{
-  /* max-width: 1400px;
-  margin: 0 auto; */
+  overflow: visible;
+}
+.homepage-shop-the-look .shop-the-look__nav{
+  left: -100px;
+  z-index: 99;
+  overflow: auto;
+}
+@media (max-width:1300px){
+  .homepage-shop-the-look .shop-the-look__nav{
+    left: unset;
+  }
 }
 .homepage-shop-the-look .shop-the-look__item-list .shop-the-look__dot{
   box-shadow: 0 0 0 8px rgb(255 255 255) inset, 0 1px 5px #00000026;
@@ -14988,6 +15150,57 @@ shopify-payment-terms {
 
 
 
+.shopify-section--image-with-text .image-with-text__content-wrapper .h3.heading{
+  font-family: "CapitoliumNews2-Regular";
+}
+.shopify-section--image-with-text .image-with-text__content-wrapper p{
+  font-family: "CapitoliumNews2-Regular";
+}
+.shopify-section--image-with-text h2{
+  font-family: Montserrat, sans-serif;
+}
+.shopify-section--image-with-text .button-wrapper .button--primary{
+  font-family: Montserrat, sans-serif;
+  line-height: 17px;
+  padding: 15px 35px;
+  border-radius: 0;
+  font-weight: 400;
+}
+
+.shop-the-look__product-info .shop-the-look__product-title{
+  font-family: Montserrat, sans-serif;
+}
+.shop-the-look__product-info .shop-the-look__product-bottom-wrapper, .shop-the-look__product-info .shop-the-look__product-bottom-wrapper button{
+  font-family: Montserrat, sans-serif;
+}
+
+
+
+.shopify-section--featured-product .section__header .heading, .shopify-section--featured-product .product .product-meta__title{
+  font-family: "CapitoliumNews2-Regular";
+}
+.shopify-section--featured-product .price-list{
+  font-family: Montserrat, sans-serif;
+}
+
+.section__header .heading{
+  font-family: "CapitoliumNews2-Regular";
+}
+
+.instastory-title{
+  font-family: "CapitoliumNews2-Regular";
+  font-size: var(--heading-h2-font-size) !important;
+  font-weight: normal;
+}
+
+
+#stories{
+  display: none !important;
+}
+.footer__inner input[type="email"]{
+  border-radius: 16px;
+}
+
 /* collection page */
 @media (max-width:740px){
   .shopify-section--main-collection #facet-main{
@@ -14995,7 +15208,7 @@ shopify-payment-terms {
     flex-direction: column;
   }
   .shopify-section--main-collection #facet-main .promotion-block-list{
-    order: 3;
+    order: 4;
     margin-top: 20px;
   }
   .shopify-section--main-collection #facet-main .product-facet__meta-bar{
@@ -15005,7 +15218,7 @@ shopify-payment-terms {
     order: 2;
   }
   .shopify-section--main-collection #facet-main .pagination{
-    order: 4;
+    order: 3;
   }
   .shopify-section--collection-banner .image-overlay{
     min-height: unset;
@@ -15058,4 +15271,15 @@ shopify-payment-terms {
   .shopify-section--product-recommendations .scroller .product-list__inner .product-item{
     width: calc( 50% - 5px );
   }
+}
+
+.shopify-section--product-recommendations .influencer-name{
+  display: none;
+}
+.influencer-name{
+  color: #707070;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
