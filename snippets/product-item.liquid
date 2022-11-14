@@ -104,6 +104,11 @@
 
   <div class="product-item__info {% if show_cta %}product-item__info--with-button{% endif %} {% if reduced_font_size %}text--small{% endif %}">
     <div class="product-item-meta">
+      {% if product.metafields.custom.influencer_name != blank %}
+        {% unless template == 'collection' or template == 'product' %}
+          <p class="influencer-name" data-template="{{ template }}">{{ product.metafields.custom.influencer_name }}</p>
+        {% endunless %}
+      {% endif %}
       {%- if settings.show_vendor -%}
         {%- assign vendor_handle = product.vendor | handle -%}
         {%- assign collection_for_vendor = collections[vendor_handle] -%}

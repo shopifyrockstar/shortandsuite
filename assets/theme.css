@@ -2566,6 +2566,7 @@ p + .button-group,
   display: inline-flex;
   flex-wrap: wrap;
   align-items: baseline;
+  font-family: "CapitoliumNews2-Regular";
 }
 
 .price-list--centered {
@@ -12702,6 +12703,7 @@ shopify-payment-terms {
   display: block;
   line-height: 1.6;
   margin-bottom: 4px;
+  font-family: "CapitoliumNews2-Regular";
 }
 
 .product-item-meta__reviews-badge {
@@ -14966,6 +14968,20 @@ shopify-payment-terms {
   }
 }
 
+/* @font-face {
+  font-family: "CapitoliumNews2";
+  src: url(//cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.otf?v=1668446255) format("otf");  
+} */
+
+@font-face {
+  font-family: "CapitoliumNews2-Regular";
+  src: url("https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.otf?v=1668446255") format("otf"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.eot?v=1668447036') format("eot"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.svg?v=1668447100') format("svg"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.ttf?v=1668447144') format("ttf"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.woff?v=1668447168') format("woff"),
+       url('https://cdn.shopify.com/s/files/1/0344/6397/3509/files/CapitoliumNews2-Regular.woff2?v=1668447192') format("woff2");
+}
 /* css for homepage */
 .lightblue-background{
   background-color: #F0F6FA;
@@ -15011,11 +15027,14 @@ shopify-payment-terms {
 }
 .slideshow__slide-inner .container .content-box .heading--large{
   font-size: 3.2vw;
+  font-family: "CapitoliumNews2-Regular";
 }
 .slideshow__slide-inner .container .content-box .heading--small{
   text-transform: unset;
   font-size: 0.9vw;
   line-height: 24px;
+  font-family: "CapitoliumNews2-Regular";
+  font-weight: normal;
 }
 .button.button--primary{
   padding: 15px 45px;
@@ -15077,10 +15096,20 @@ shopify-payment-terms {
   }
 }
 
+
+
+.shopify-section--featured-collections section.section .section__header .text-container .heading{  
+  font-family: "CapitoliumNews2-Regular";
+}
 .shopify-section--featured-collections section.section .product-item__quick-buy-button{
   display: none;
 }
 
+
+
+.shopify-section--collection-list .section__header .heading {
+  font-family: "CapitoliumNews2-Regular";
+}
 .shopify-section--collection-list p{
   color:black;
   text-decoration: underline;
@@ -15120,6 +15149,13 @@ shopify-payment-terms {
 }
 
 
+
+.shopify-section--image-with-text .image-with-text__content-wrapper .h3.heading{
+  font-family: "CapitoliumNews2-Regular";
+}
+.shopify-section--image-with-text .image-with-text__content-wrapper p{
+  font-family: "CapitoliumNews2-Regular";
+}
 .shopify-section--image-with-text h2{
   font-family: Montserrat, sans-serif;
 }
@@ -15139,11 +15175,23 @@ shopify-payment-terms {
 }
 
 
+
+.shopify-section--featured-product .section__header .heading, .shopify-section--featured-product .product .product-meta__title{
+  font-family: "CapitoliumNews2-Regular";
+}
 .shopify-section--featured-product .price-list{
   font-family: Montserrat, sans-serif;
 }
 
+.section__header .heading{
+  font-family: "CapitoliumNews2-Regular";
+}
 
+.instastory-title{
+  font-family: "CapitoliumNews2-Regular";
+  font-size: var(--heading-h2-font-size) !important;
+  font-weight: normal;
+}
 
 
 #stories{
@@ -15160,7 +15208,7 @@ shopify-payment-terms {
     flex-direction: column;
   }
   .shopify-section--main-collection #facet-main .promotion-block-list{
-    order: 3;
+    order: 4;
     margin-top: 20px;
   }
   .shopify-section--main-collection #facet-main .product-facet__meta-bar{
@@ -15170,7 +15218,7 @@ shopify-payment-terms {
     order: 2;
   }
   .shopify-section--main-collection #facet-main .pagination{
-    order: 4;
+    order: 3;
   }
   .shopify-section--collection-banner .image-overlay{
     min-height: unset;
@@ -15223,4 +15271,15 @@ shopify-payment-terms {
   .shopify-section--product-recommendations .scroller .product-list__inner .product-item{
     width: calc( 50% - 5px );
   }
+}
+
+.shopify-section--product-recommendations .influencer-name{
+  display: none;
+}
+.influencer-name{
+  color: #707070;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
