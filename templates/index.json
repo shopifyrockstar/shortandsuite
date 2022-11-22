@@ -9,10 +9,10 @@
             "image": "shopify:\/\/shop_images\/Hero.png",
             "mobile_image": "shopify:\/\/shop_images\/Group_54.png",
             "text_position": "middle_center",
-            "subheading": "Luxurious and high-quality products to meet the <br>needs of high-end luxury travelers on the go.",
-            "title": "Love life’s <br><b>little<\/b> luxuries",
+            "subheading": "BLACK FRIDAY IS HERE 45% OFF THE ENTIRE SITE AUTOMATICALLY APPLIED AT CHECKOUT!",
+            "title": "Black Friday is here! 45% OFF THE ENTIRE SITE!",
             "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/products\/bridal-bracelet-yellow",
+            "button_1_link": "shopify:\/\/collections\/all-suites",
             "button_2_text": "",
             "button_2_link": "",
             "text_color": "#000000",
@@ -49,7 +49,7 @@
         "3507587e-9513-4fef-8e97-2105c7381b65": {
           "type": "collection",
           "settings": {
-            "collection": "best-sellers",
+            "collection": "candyland-collection",
             "label": "influencers",
             "button_text": "",
             "button_url": ""
@@ -326,11 +326,6 @@
             "size_chart_page": ""
           }
         },
-        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-1": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-2": {
           "type": "buy_buttons",
           "settings": {
@@ -344,7 +339,6 @@
       },
       "block_order": [
         "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-0",
-        "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-1",
         "template--16615735591140__bac8a369-e40b-437c-9c7c-fe2bc57db131-16679281616ac0329a-2"
       ],
       "settings": {
@@ -432,6 +426,20 @@
         "button_text_color": "rgba(0,0,0,0)",
         "logo_background": "rgba(0,0,0,0)"
       }
+    },
+    "1a5905e3-5576-4699-ad23-711737a0841c": {
+      "type": "blog-posts",
+      "settings": {
+        "blog": "",
+        "subheading": "Stay up-to-date",
+        "title": "Blog posts",
+        "articles_count": 3,
+        "stack_mobile": false,
+        "show_category": true,
+        "show_excerpt": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -443,6 +451,7 @@
     "7fbd2165-5f64-4b82-91e5-541db0ab4b45",
     "ae65ef9d-0372-419f-a3bc-0b85f06ca391",
     "bac8a369-e40b-437c-9c7c-fe2bc57db131",
-    "ea8b726b-4724-4cdb-a521-cd7c222ae151"
+    "ea8b726b-4724-4cdb-a521-cd7c222ae151",
+    "1a5905e3-5576-4699-ad23-711737a0841c"
   ]
 }
