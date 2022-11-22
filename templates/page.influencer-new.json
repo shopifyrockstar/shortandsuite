@@ -1,0 +1,675 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "d6c54e6b-6898-4d56-bca9-2ecdd3a938a2": {
+      "type": "gallery",
+      "blocks": {
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6493_1_b192535e-d0a9-4907-9f6e-ecf2353d1355.jpg",
+            "caption": "<p>Kristina Zias Black Gem Choker<\/p>"
+          }
+        },
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4396_4a78b418-56bb-4a40-b234-7654990dd069.jpg",
+            "caption": "<p>Tinx Candy Gem Ring Honey<\/p>"
+          }
+        },
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01783_6e10b164-d666-4ace-aed8-512dec7fb751.jpg",
+            "caption": "<p>Tinx Blue Lariat<\/p>"
+          }
+        },
+        "b6743519-c117-4b39-a918-d58309dae5d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01841_6c98f7e8-35bd-4dc5-9d97-3f287a949e21.jpg",
+            "caption": "<p>Tinx Lariat Pink<\/p>"
+          }
+        },
+        "18738331-0d59-4670-b521-465f78b7b5bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSC01186_1_5a169609-6c19-45d7-8c40-87b7258d07f9.jpg",
+            "caption": "<p>Tinx Blue Gem Lariat<\/p>"
+          }
+        },
+        "6ecc22f2-d808-4a19-951d-4e02b49fa945": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/crop_of_tinx_2_fa3f0c6f-0bdf-4d56-a8b9-406b339fab92.jpg",
+            "caption": "<p>Tinx Pink Long Drop Gem Earrings<\/p>"
+          }
+        },
+        "12b79ba1-b7d3-44b9-bd7b-b219c4dfe4de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.35.09_PM_1ce279ca-0477-46cc-838c-29c016839c26.png",
+            "caption": "<p>Tinx Sally Stud<\/p>"
+          }
+        },
+        "490caf9b-5a54-4e69-a451-2fdf2c9781f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/stylememaeve-instagram-2021-07-20-CRjl3IYl5gi-post_5f36874b-aefb-4ed6-aaad-df116218a75d.jpg",
+            "caption": "<p>Maeve Reilly Crystal Rose Ring<\/p>"
+          }
+        },
+        "3da34c24-a8d7-4cb5-b656-a15576053a6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-4281_683c4ad0-deff-469c-9813-1eec613d2b13.jpg",
+            "caption": "<p>Ellie Zeiler Chunky Gem Choker Flipped<\/p>"
+          }
+        },
+        "79cd7f6f-352c-4dda-bb6b-39727560d0bb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-4288_fe76c0d8-794b-447e-8d2c-759b446ab302.jpg",
+            "caption": "<p>Sangyay Crystal Hawn Hoop<\/p>"
+          }
+        },
+        "0be4761a-d02d-4b68-8f77-94d0c6b5434c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-4286_d4ecd6e3-fbb0-4eed-b968-628f8e2d8f67.jpg",
+            "caption": "<p>Sangyay Crystal Hawn Hoop<\/p>"
+          }
+        },
+        "89980a92-48e9-4946-a852-7048d7fdb241": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3816_06793462-2e4f-48f2-a759-32d917ffc21e.jpg",
+            "caption": "<p>Lauren Giraldo Emerald Chunky Gem Choker<\/p>"
+          }
+        },
+        "1cc695a3-8796-4ca8-9932-24710bd65861": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3524_b4f74364-8130-41bc-91cf-dbb0745a5c17.jpg",
+            "caption": "<p>Alissa Violet Green Oval Ring<\/p>"
+          }
+        },
+        "598b955a-f024-47d3-844e-68b991be2dea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.43.34_PM_facf2721-cd8f-4fe6-b3c5-13fafabb659c.png",
+            "caption": "<p>Natasha Bure<\/p>"
+          }
+        },
+        "4235ac75-078d-4d45-babe-92fd4e0c864b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Amanda_f4c57d7a-4e2f-4cd0-b20e-f74f8536942e.jpg",
+            "caption": "<p>Amanda Stanton Yellow Chunky Gem Choker<\/p>"
+          }
+        },
+        "b131e4a1-d640-400e-9bc7-956e07c9d025": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/resized_1202f20a-7c75-4e2f-8857-01f8a706271f.jpg",
+            "caption": "<p>Amber Asaly<\/p>"
+          }
+        },
+        "5b8d1530-a22a-449b-9f90-f05b6d0a10b8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.48.27_PM_6a85c157-0002-43f7-aab4-860b6563ede7.png",
+            "caption": "<p>Actually.Skin<\/p>"
+          }
+        },
+        "dfe773b5-ffdf-475c-8dfc-d37f0b240489": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3525_159bacc3-1875-4cb7-a080-06134e4a0daa.jpg",
+            "caption": "<p>Actually.Skin<\/p>"
+          }
+        },
+        "17bfad65-65bb-48be-af99-7d0cbe8a7659": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glosshouse_67cabe82-2c12-4bb6-89b2-b6908b5cca2c.png",
+            "caption": "<p>OverGlowEdit Melanie<\/p>"
+          }
+        },
+        "8f168531-9de1-48ef-b783-6584d6088380": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5875A514-0078-4CD2-866D-87F246941D18_22ddc8ec-63f2-4224-b4f1-014828b1e317.jpg",
+            "caption": "<p>Overglowedit Melanie <\/p>"
+          }
+        },
+        "178d526e-a57f-41b4-b6f8-6fb1755af932": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Overglowedit_adb888fb-db36-4315-8e57-6639471b0fcc.png",
+            "caption": "<p>Overglowedit Melanie<\/p>"
+          }
+        },
+        "14132262-a881-495f-9a38-d97d9a1b32be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_7_22f430f2-4582-4167-940f-c800a185696b.jpg",
+            "caption": "<p>Gloss House<\/p>"
+          }
+        },
+        "e5ca00c4-d481-4451-9e3b-3a7f2f082fdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glosshouse_41701232-2464-4531-ac66-5fa98c596156.png",
+            "caption": "<p>Gloss House<\/p>"
+          }
+        },
+        "5edfb34c-fb35-4738-926a-5d4e58f9acf2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5875A514-0078-4CD2-866D-87F246941D18_22ddc8ec-63f2-4224-b4f1-014828b1e317.jpg",
+            "caption": "<p>Cassandra Cadwell<\/p>"
+          }
+        },
+        "49941287-ed6c-4e38-a7d1-4be5bb0dea0c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3526_f915adce-9f98-43c4-baf6-23e33049ece0.jpg",
+            "caption": "<p>Natalie Barbu<\/p>"
+          }
+        },
+        "bb6d2fc2-d79a-4aec-a06b-54ff0557130d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Natalie_Barbu_494ff5b0-cb8e-4fde-aad6-42249e6b534b.png",
+            "caption": "<p>Natalie Barbu<\/p>"
+          }
+        },
+        "5f3b478d-2e54-4275-be92-daa511bf1d60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lysielooloo_22012cf3-6009-4275-8906-e3ff37bf480a.png",
+            "caption": "<p>Lyss<\/p>"
+          }
+        },
+        "37b25019-7aaa-4e68-af9a-0530674efcc6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4465_1_copy_529090d5-83ca-41ae-b33c-0f3db76c4a7b.jpg",
+            "caption": "<p>Rocky Barnes<\/p>"
+          }
+        },
+        "347147f9-f464-4026-8c0d-007e28d321b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Photo_Jun_09_2_26_25_PM_copy_1bf89591-85f3-47c5-9321-31b8eba553d3.jpg",
+            "caption": "<p>Marta Pozzan<\/p>"
+          }
+        },
+        "88198768-2413-4ca1-a106-01cc90c6f0c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4466_2_copy_21652248-d544-4b20-9d9d-c8a95e7f5fbb.jpg",
+            "caption": "<p>Savannah Lynch<\/p>"
+          }
+        },
+        "3d5f87ee-4f27-4797-8b2a-a06e61b034c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_1_522372db-9b33-48a4-b511-7cb3a92a433e.jpg",
+            "caption": "<p>Melody Acevedo<\/p>"
+          }
+        },
+        "c50463da-4db0-46a4-8668-55741428dbfc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4488_0198d31e-707b-4534-a3d0-1be02247fd36.jpg",
+            "caption": "<p>Kristine Agabaian<\/p>"
+          }
+        },
+        "5c06883d-5989-4007-a0ce-5e2ea5937782": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4456_copy_dc39e2cb-fb2e-420d-aecc-a6455300b829.jpg",
+            "caption": "<p>Taylor Godfrey<\/p>"
+          }
+        },
+        "1d9e22df-bd44-4002-94f6-04755b00ac4b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4460_copy_d55ad9ca-2556-4e7b-826c-cc1dd7ffb23e.jpg",
+            "caption": "<p>Fernanda Romero<\/p>"
+          }
+        },
+        "f9f8b8c0-16fb-48ab-bf13-fc11727e56ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4485_copy_d0a7f344-6fd2-4272-81b3-2dfe2df76d1e.jpg",
+            "caption": "<p>Courtney Halverson<\/p>"
+          }
+        },
+        "9dfe5e8f-67dd-41b8-b354-536d6b56f2db": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4486_copy_85d3c575-51b6-44a7-b2cc-69ab9b1f9e41.jpg",
+            "caption": "<p>Rohma Siddiqui<\/p>"
+          }
+        },
+        "6d80ae0b-0494-4e21-8dbe-f20ac2d9654d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Thania_Peck_8dc10279-9afd-4f30-9886-d84c98e23177.jpg",
+            "caption": "<p>Thania <\/p>"
+          }
+        },
+        "fe2a9a70-93e0-4232-86e9-6d027e30f8d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4497_copy_2bed8182-f592-4a83-907f-cf056b0535ee.jpg",
+            "caption": "<p>Christa Allen <\/p>"
+          }
+        },
+        "5e185516-b9b4-4d94-9259-67801f0e536b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ana_Wolferman_bdeade5e-0b88-41d3-97f6-8c09240f720c.png",
+            "caption": "<p>Ana Wolferman<\/p>"
+          }
+        },
+        "c3cc86a7-35b1-484c-a977-b4619cdc6692": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dietmtndewy_27b4c226-0b27-48c1-9376-2831eabe1885.png",
+            "caption": "<p>Jasmine <\/p>"
+          }
+        },
+        "a70a4743-609f-4f29-9007-b3dff4df43ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Genevievevandam_74c60b89-705e-432e-8e1f-6fe529bb0fdc.png",
+            "caption": "<p>Genevieve Vandam <\/p>"
+          }
+        },
+        "30238ccd-2b3a-4c25-a45c-de25a0db0e81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/georgiagracefitz_45e5ca62-c4e3-4c7a-9f50-72d734afbf19.png",
+            "caption": "<p>Georgie Grace Fitz<\/p>"
+          }
+        },
+        "052cdf6a-9426-4022-ad0a-60e5353355e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mexicanbutjapanese_5596bcf7-501c-473f-b811-e2ce29a0d774.png",
+            "caption": "<p>Mexican But Japanese<\/p>"
+          }
+        },
+        "caaa7fcb-c71b-427e-bee1-d51c8c80752a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_4659_17957811-5060-44a9-a9d3-ae4f7dd932ba.jpg",
+            "caption": "<p>Julia Carolan <\/p>"
+          }
+        },
+        "22c6d92a-e32a-4210-af43-4a2eb90c5bff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3528_a48c9b86-17c8-4834-afe8-82816a323bd3.jpg",
+            "caption": "<p>Taylor Quitara<\/p>"
+          }
+        },
+        "a7899268-a0f4-4a93-8505-6a33fa4e92e7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.38.52_PM_8c265439-a861-4058-bf93-29bd9db7f12e.png",
+            "caption": "<p>Allie Rizzo <\/p>"
+          }
+        },
+        "6b4d8ac1-79b5-4d4b-8b55-b306fe7222b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.40.24_PM_817b3d5e-4e44-4137-9783-776347a0e9da.png",
+            "caption": "<p>Natalie Morris<\/p>"
+          }
+        },
+        "aedd2581-47a4-480a-9bfe-314aa95911f1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.41.34_PM_d3ca4c09-a225-4c1d-adb4-b45bcb3e11a9.png",
+            "caption": "<p>Hal Burns<\/p>"
+          }
+        },
+        "687e5e33-1b54-494b-a506-a83bbd6713a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.45.51_PM_90527cc5-adf3-4fa1-a801-a2afb428ce54.png",
+            "caption": "<p>Sushi Roll Angel <\/p>"
+          }
+        },
+        "5fdd5758-518a-49e4-a10b-3020a8b25803": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.46.46_PM_d21285ff-9c74-4471-bdc7-df09d1f46328.png",
+            "caption": "<p>Ava Antoyan<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-0",
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-1",
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-2",
+        "b6743519-c117-4b39-a918-d58309dae5d5",
+        "18738331-0d59-4670-b521-465f78b7b5bf",
+        "6ecc22f2-d808-4a19-951d-4e02b49fa945",
+        "12b79ba1-b7d3-44b9-bd7b-b219c4dfe4de",
+        "490caf9b-5a54-4e69-a451-2fdf2c9781f7",
+        "3da34c24-a8d7-4cb5-b656-a15576053a6d",
+        "79cd7f6f-352c-4dda-bb6b-39727560d0bb",
+        "0be4761a-d02d-4b68-8f77-94d0c6b5434c",
+        "89980a92-48e9-4946-a852-7048d7fdb241",
+        "1cc695a3-8796-4ca8-9932-24710bd65861",
+        "598b955a-f024-47d3-844e-68b991be2dea",
+        "4235ac75-078d-4d45-babe-92fd4e0c864b",
+        "b131e4a1-d640-400e-9bc7-956e07c9d025",
+        "5b8d1530-a22a-449b-9f90-f05b6d0a10b8",
+        "dfe773b5-ffdf-475c-8dfc-d37f0b240489",
+        "17bfad65-65bb-48be-af99-7d0cbe8a7659",
+        "8f168531-9de1-48ef-b783-6584d6088380",
+        "178d526e-a57f-41b4-b6f8-6fb1755af932",
+        "14132262-a881-495f-9a38-d97d9a1b32be",
+        "e5ca00c4-d481-4451-9e3b-3a7f2f082fdb",
+        "5edfb34c-fb35-4738-926a-5d4e58f9acf2",
+        "49941287-ed6c-4e38-a7d1-4be5bb0dea0c",
+        "bb6d2fc2-d79a-4aec-a06b-54ff0557130d",
+        "5f3b478d-2e54-4275-be92-daa511bf1d60",
+        "37b25019-7aaa-4e68-af9a-0530674efcc6",
+        "347147f9-f464-4026-8c0d-007e28d321b7",
+        "88198768-2413-4ca1-a106-01cc90c6f0c4",
+        "3d5f87ee-4f27-4797-8b2a-a06e61b034c2",
+        "c50463da-4db0-46a4-8668-55741428dbfc",
+        "5c06883d-5989-4007-a0ce-5e2ea5937782",
+        "1d9e22df-bd44-4002-94f6-04755b00ac4b",
+        "f9f8b8c0-16fb-48ab-bf13-fc11727e56ec",
+        "9dfe5e8f-67dd-41b8-b354-536d6b56f2db",
+        "6d80ae0b-0494-4e21-8dbe-f20ac2d9654d",
+        "fe2a9a70-93e0-4232-86e9-6d027e30f8d4",
+        "5e185516-b9b4-4d94-9259-67801f0e536b",
+        "c3cc86a7-35b1-484c-a977-b4619cdc6692",
+        "a70a4743-609f-4f29-9007-b3dff4df43ad",
+        "30238ccd-2b3a-4c25-a45c-de25a0db0e81",
+        "052cdf6a-9426-4022-ad0a-60e5353355e2",
+        "caaa7fcb-c71b-427e-bee1-d51c8c80752a",
+        "22c6d92a-e32a-4210-af43-4a2eb90c5bff",
+        "a7899268-a0f4-4a93-8505-6a33fa4e92e7",
+        "6b4d8ac1-79b5-4d4b-8b55-b306fe7222b0",
+        "aedd2581-47a4-480a-9bfe-314aa95911f1",
+        "687e5e33-1b54-494b-a506-a83bbd6713a7",
+        "5fdd5758-518a-49e4-a10b-3020a8b25803"
+      ],
+      "settings": {
+        "subheading": "As Seen On",
+        "title": "Influencers Who Wear Short & Suite",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "d534fdbf-cc12-4a9a-88e8-9cf8fc89d652": {
+      "type": "gallery",
+      "blocks": {
+        "template--16625287299300__d534fdbf-cc12-4a9a-88e8-9cf8fc89d652-1668822100fb396313-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-05-21_at_4.50.44_PM_8eaa4270-e1e5-4b7c-a054-b413136062ee.png",
+            "caption": "<p>@first_fig<\/p>"
+          }
+        },
+        "template--16625287299300__d534fdbf-cc12-4a9a-88e8-9cf8fc89d652-1668822100fb396313-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tylauren-2021-05-25-CPTTNawhdsb-e818-post_10015d67-4113-42d6-9d1a-d3f76f308081.jpg",
+            "caption": "<p>Ty Lauren Chunky Gem Ring<\/p>"
+          }
+        },
+        "template--16625287299300__d534fdbf-cc12-4a9a-88e8-9cf8fc89d652-1668822100fb396313-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tylauren-2021-05-25-CPTTNawhdsb-df9f-post_ce41fff1-c7c1-452c-a3ce-3b4022e88fcc.jpg",
+            "caption": "<p>Ty Lauren Chunky Gem Ring<\/p>"
+          }
+        },
+        "32d6d441-4bac-4705-a968-480bebd7d2c5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/georgiagracefitz-2021-05-24-8582042266-story_6d04f020-7b7e-4251-b15b-f9d4ee11841e.jpg",
+            "caption": "<p>Georgia Grace Fitz Chunky Gem Ring<\/p>"
+          }
+        },
+        "0534e252-0bc9-4c91-bed1-39f727dc9abc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/f1b7d588bWFs-casetify-april-2021-taetaetots-2021-05-24-49f89a2270-story_35f762fa-4052-405f-9aea-fa4eae1bd071.jpg",
+            "caption": "<p>Tae Tae Tots Chunky Gem Ring<\/p>"
+          }
+        },
+        "8e29d9df-bf5f-43a8-a1fa-7588008bbbc1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/andiefitzgerald-2021-06-01-CPjx46KHI6N-244f-post_a8099b6e-9d35-4c60-a7cb-5363b586e82f.jpg",
+            "caption": "<p>Andie Fitzgerald Chunky Gem Ring<\/p>"
+          }
+        },
+        "0c5c29c7-6c4d-4e32-bdb8-6b4859c2cb44": {
+          "type": "image",
+          "settings": {
+            "caption": "<p>Issa Sung Chunky Gem Ring<\/p>"
+          }
+        },
+        "320cb095-9994-4506-96b0-4c4540ff7b24": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/georgiagracefitz-2021-06-03-CPrQWXAnXI3-a455-post_ea14d79e-de81-4cbe-90ab-92be8b23f54d.jpg",
+            "caption": "<p>Georgie Grace Fitz Chunky Gem Ring<\/p>"
+          }
+        },
+        "079a46f2-dabd-4b83-9a31-b66bf1f41c9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tess_and_sarah-2020-11-28-4039205c01-story_bb8133d2-8dc6-40c5-a8d9-74b0e083ccc7.jpg",
+            "caption": "<p>Tess & Sarah<\/p>"
+          }
+        },
+        "1b620114-0308-4be4-80e4-717430341b94": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-06-08_at_2.41.01_PM_78e3362a-8fc6-4494-bbf0-665c652ac517.png",
+            "caption": "<p>Jenn Le Mun<\/p>"
+          }
+        },
+        "404d1bd4-602d-4de4-b6a7-2975ff6016d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_7218_1_575459a9-c40f-4644-80d5-d2db83628efb.jpg",
+            "caption": "<p>Denise Schaefer Logo Choker<\/p>"
+          }
+        },
+        "873ff8d9-9562-4d0c-9453-12d5d541652e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S_SImageTemplate.008_43683135-44c3-4302-85d9-858d01079c59.jpg",
+            "caption": "<p>Chelsey Pecoy Logo Choker<\/p>"
+          }
+        },
+        "b670a129-3d34-4349-bf20-eefe98931d7e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S_SImageTemplate.006_def0e340-7e7f-4c21-bde2-b04db6c5eb67.jpg",
+            "caption": "<p>Jami Alix Logo Choker<\/p>"
+          }
+        },
+        "cbeeb650-3ef6-4cba-ac6f-4a9b1c297592": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S_SImageTemplate.005_93b9eaa2-18ec-4506-8e93-9bab03c68e4a.jpg",
+            "caption": "<p>Jessa Blondin Logo Choker <\/p>"
+          }
+        },
+        "4a61f5f1-a635-4db0-91d9-6f47c0417013": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S_SImageTemplate.004_0fc41c5d-04be-4cf5-a969-d9b387113d49.jpg",
+            "caption": "<p>Jessa Blondin Logo Choker<\/p>"
+          }
+        },
+        "bd30cdcb-ab47-4548-bb43-608c2ee7bbdf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/S_SImageTemplate.002_ab1eea4b-7997-4b48-8907-2ade8ee0d8de.jpg",
+            "caption": "<p>Catcher In Style Logo Choker <\/p>"
+          }
+        },
+        "f30ff845-6301-49ee-b436-d7417ae6b317": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mjhedderman-2021-09-25-instagram-CUO6GrxseLN-dfb9-post_378f63d9-71b9-4368-8b8d-b914cbed0aa4.jpg",
+            "caption": "<p>MJ Hedderman Half Bezel Ring<\/p>"
+          }
+        },
+        "b3d91183-b9ce-456c-bbc7-ebd219ed89c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0360c6b9c29j-gen-1-mjhedderman-2021-09-24-instagram-CUNbPmrFu71-f624-post_cbdec1b1-0fd7-4c8c-b9d1-3c136b170821.jpg",
+            "caption": "<p>MJ Hedderman Chunky Gem Choker<\/p>"
+          }
+        },
+        "a70cfd83-0c4c-482c-b01c-8b912eaa4af2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kleamxo-2021-09-22-instagram-3764a6-story_dca091ee-28c3-4c8f-b530-66f917a5e3c3.jpg",
+            "caption": "<p>Kleamxo Chunky Gem Ring<\/p>"
+          }
+        },
+        "1bd31f92-7de9-4779-9bae-29010e8e8e81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jazminwhitley-2021-09-21-instagram-b0a4cc-story_f6dc4770-1aa1-490c-8505-e71a25f07be6.jpg",
+            "caption": "<p>Jazmin Whitley Half Bezel Ring<\/p>"
+          }
+        },
+        "04ad4746-d4e2-4e55-a9c2-f0f8258e1078": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jazminwhitley-2021-09-21-instagram-CUFvw0LJA0x-2d9b-post_17cc47e5-5b91-4649-9cf0-6eaefae38b9b.jpg",
+            "caption": "<p>Jazmin Whitley Half Bezel Ring<\/p>"
+          }
+        },
+        "19990f29-6644-4cca-8c05-86b49362dcb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/32cfe3a2bWFs-short-suite-februa-taetaetots-2021-09-20-instagram-CUD3AONMktX-8fcd-post_9229064b-d8c2-4ce6-b1ec-290c16b06213.jpg",
+            "caption": "<p>TaeTaeTots Bezel Ring, Half Bezel Ring, Chunky Gem Ring<\/p>"
+          }
+        },
+        "2b40086f-9d6d-46cf-99cb-a0c5fe4baf4e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amyle.nails-2021-08-05-instagram-CSMuejcMyED-27a7-post_2aee0ef7-76ed-445b-90f2-f3f37924cb13.jpg",
+            "caption": "<p>Amy Le Eternity Gem Ring Blue<\/p>"
+          }
+        },
+        "3fd6724e-e330-488e-8bb6-1bd076195290": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amyle.nails-2021-08-05-instagram-CSMuejcMyED-fe00-post_76fcb7ac-f14b-49c3-a01c-2df539bf0e6c.jpg",
+            "caption": "<p>Amy Le Eternity Gem Ring Blue <\/p>"
+          }
+        },
+        "43aaa380-763f-4516-942c-f3112ec2d00f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/piaharo-2021-08-29-instagram-e9745a-story_c61aeb9f-bb41-448a-b61b-dba9ea397440.jpg",
+            "caption": "<p>Pia Haro Oval Gem Ring Green <\/p>"
+          }
+        },
+        "fd3f2d21-2326-464e-b10a-47a7901c3f88": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a06100a5bWFs-apercu-all-mjhedderman-2021-08-30-instagram-CTNMwBrFX4s-aa40-post_524d050e-3a7e-470c-92f8-d58d2324b8dd.jpg",
+            "caption": "<p>MH Hedderman Half Bezel Ring Blue<\/p>"
+          }
+        },
+        "fd9dfd2c-1a10-46b0-b713-790640b7fbaf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mjhedderman-2021-08-30-instagram-CTNH2EsFmWj-7862-post_a341a700-7960-4d49-b433-8b59baca3918.jpg",
+            "caption": "<p>MJ Hedderman Bezel Ring Green, Half Bezel Ring Blue<\/p>"
+          }
+        },
+        "33c08a9d-2357-472d-a899-a0cf127ca3ff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mjhedderman-2021-08-18-instagram-CSuZ12VpYfl-6571-post_516c3b97-cefc-42de-ace4-987488702cf0.jpg",
+            "caption": "<p>MJ Hedderman Bezel Ring Gree, Half Bezel Ring Blue<\/p>"
+          }
+        },
+        "94a99a97-0125-4134-b201-9ba80227be62": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/alyssalynch-2021-10-04-instagram-CUoCgXLpBEF-7acf-post_11f1233d-c90f-4f4d-a373-00436ed4a961.jpg",
+            "caption": "<p>Alysssa Lynch Chunky Gem Rings<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16625287299300__d534fdbf-cc12-4a9a-88e8-9cf8fc89d652-1668822100fb396313-0",
+        "template--16625287299300__d534fdbf-cc12-4a9a-88e8-9cf8fc89d652-1668822100fb396313-1",
+        "template--16625287299300__d534fdbf-cc12-4a9a-88e8-9cf8fc89d652-1668822100fb396313-2",
+        "32d6d441-4bac-4705-a968-480bebd7d2c5",
+        "0534e252-0bc9-4c91-bed1-39f727dc9abc",
+        "8e29d9df-bf5f-43a8-a1fa-7588008bbbc1",
+        "0c5c29c7-6c4d-4e32-bdb8-6b4859c2cb44",
+        "320cb095-9994-4506-96b0-4c4540ff7b24",
+        "079a46f2-dabd-4b83-9a31-b66bf1f41c9d",
+        "1b620114-0308-4be4-80e4-717430341b94",
+        "404d1bd4-602d-4de4-b6a7-2975ff6016d4",
+        "873ff8d9-9562-4d0c-9453-12d5d541652e",
+        "b670a129-3d34-4349-bf20-eefe98931d7e",
+        "cbeeb650-3ef6-4cba-ac6f-4a9b1c297592",
+        "4a61f5f1-a635-4db0-91d9-6f47c0417013",
+        "bd30cdcb-ab47-4548-bb43-608c2ee7bbdf",
+        "f30ff845-6301-49ee-b436-d7417ae6b317",
+        "b3d91183-b9ce-456c-bbc7-ebd219ed89c1",
+        "a70cfd83-0c4c-482c-b01c-8b912eaa4af2",
+        "1bd31f92-7de9-4779-9bae-29010e8e8e81",
+        "04ad4746-d4e2-4e55-a9c2-f0f8258e1078",
+        "19990f29-6644-4cca-8c05-86b49362dcb9",
+        "2b40086f-9d6d-46cf-99cb-a0c5fe4baf4e",
+        "3fd6724e-e330-488e-8bb6-1bd076195290",
+        "43aaa380-763f-4516-942c-f3112ec2d00f",
+        "fd3f2d21-2326-464e-b10a-47a7901c3f88",
+        "fd9dfd2c-1a10-46b0-b713-790640b7fbaf",
+        "33c08a9d-2357-472d-a899-a0cf127ca3ff",
+        "94a99a97-0125-4134-b201-9ba80227be62"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d6c54e6b-6898-4d56-bca9-2ecdd3a938a2",
+    "d534fdbf-cc12-4a9a-88e8-9cf8fc89d652"
+  ]
+}
