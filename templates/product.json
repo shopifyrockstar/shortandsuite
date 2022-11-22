@@ -67,7 +67,7 @@
           "settings": {
             "icon_1": "picto-delivery-truck",
             "title_1": "Shipping & Returns",
-            "content_1": "",
+            "content_1": "<p>All orders are processed within 2 business days! Excluding weekends, holidays and promotional periods. All orders are sent via USPS and you will be notified right away via email with your tracking number. <\/p>",
             "icon_2": "picto-lock",
             "title_2": "Secure Payment",
             "content_2": "",
@@ -79,8 +79,8 @@
         "1e63b4e8-724c-432d-96ef-9e0f60547a02": {
           "type": "featured_products",
           "settings": {
-            "title": "SIMILAR PRODUCTS",
-            "product_1": "eternity-gem-tennis-necklace-crystal",
+            "title": "COMPLETE THE LOOK",
+            "product_1": "5-chandelier-earring",
             "product_2": "bungalow-rope-bracelet"
           }
         }

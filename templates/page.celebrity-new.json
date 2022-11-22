@@ -1,0 +1,429 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "page_width": "medium"
+      }
+    },
+    "d6c54e6b-6898-4d56-bca9-2ecdd3a938a2": {
+      "type": "gallery",
+      "blocks": {
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6352_52b262b1-c0a8-4a15-9520-6af858485fcc.jpg",
+            "caption": "<p>Candace Cameron Bure Logo Choker<\/p>"
+          }
+        },
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6487_2b58dc47-9ca1-4af9-81a3-52a9c5259a7f.jpg",
+            "caption": "<p>Bella Hadid Candy Ring Lime, Chunky Ring Blue<\/p>"
+          }
+        },
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6494_60c2f287-e3e8-4b01-9cb7-85d71baf7f8f.jpg",
+            "caption": "<p>Bella Hadid Blue Chunky Gem Ring<\/p>"
+          }
+        },
+        "b6743519-c117-4b39-a918-d58309dae5d5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-10_at_6.27.42_PM_54ea48ec-dcd7-4120-bdae-7dc66421cf4a.png",
+            "caption": "<p>Bella Hadid Yellow Chunky Gem Ring<\/p>"
+          }
+        },
+        "18738331-0d59-4670-b521-465f78b7b5bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_bellahadid_in_Blue_Chunky_Gem_Ring_87049095-6b0f-47a9-9a31-1678674b5fe3.png",
+            "caption": "<p>Bella Hadid Blue Chunky Gem Ring<\/p>"
+          }
+        },
+        "6ecc22f2-d808-4a19-951d-4e02b49fa945": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_bellahadid_916538cc-18fc-4a35-af84-1d1415d288f2.jpg",
+            "caption": "<p>Bella Hadid Lime Candy Ring<\/p>"
+          }
+        },
+        "12b79ba1-b7d3-44b9-bd7b-b219c4dfe4de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_bellahadid_in_Bezel_Square_Chunky_Ring_1_7c850d73-5204-4195-9f89-2c8fead200e2.png",
+            "caption": "<p>Bella Hadid Lime Candy Ring via Stories<\/p>"
+          }
+        },
+        "490caf9b-5a54-4e69-a451-2fdf2c9781f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6484_2_caac3aa8-3dea-4f22-b77a-6c39fad2f9f2.jpg",
+            "caption": "<p>Dakota Fanning Yellow Candy Ring<\/p>"
+          }
+        },
+        "3da34c24-a8d7-4cb5-b656-a15576053a6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-07-10_at_6.23.42_PM_b9d49a57-0005-476e-96d0-4230e34c7036.png",
+            "caption": "<p>Dakota Fanning Yellow Chunky Gem Ring<\/p>"
+          }
+        },
+        "79cd7f6f-352c-4dda-bb6b-39727560d0bb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6485_44f4be55-37e1-4539-b6ab-cb8916883db9.jpg",
+            "caption": "<p>Dakota Fanning Green Oval Ring<\/p>"
+          }
+        },
+        "0be4761a-d02d-4b68-8f77-94d0c6b5434c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2052_77aa2430-a7c6-4af8-bd6c-0620800b9a72.jpg",
+            "caption": "<p>Emma Chamberlain Oval Ring<\/p>"
+          }
+        },
+        "89980a92-48e9-4946-a852-7048d7fdb241": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1597_98df7477-2889-4bf5-9e31-f0287a9a0071.jpg",
+            "caption": "<p>Emma Chamberlain Ruby Chunky Gem Ring, Oval Ring & Chunky Gem Choker<\/p>"
+          }
+        },
+        "1cc695a3-8796-4ca8-9932-24710bd65861": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_1618_40422377-ed02-4292-981a-bc9add058b89.jpg",
+            "caption": "<p>Emma Chamberlain Ruby Chunky Gem Ring, Oval Ring & Chunky Gem Choker<\/p>"
+          }
+        },
+        "598b955a-f024-47d3-844e-68b991be2dea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_9_3d8082ad-ba6c-4306-bf7f-3b6032abd96d.jpg",
+            "caption": "<p>Brianne Howey Black Chunky Gem Choker <\/p>"
+          }
+        },
+        "4235ac75-078d-4d45-babe-92fd4e0c864b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3601_cda4585c-1f1d-45b9-892c-5e34fde120a1.png",
+            "caption": "<p>Brianne Howey Chunky Gem Choker Black<\/p>"
+          }
+        },
+        "b131e4a1-d640-400e-9bc7-956e07c9d025": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3603_6fe5e42e-1a5c-4c3f-9b56-8e047e843159.png",
+            "caption": "<p>Brianne Howey Chunky Gem Choker Black<\/p>"
+          }
+        },
+        "5b8d1530-a22a-449b-9f90-f05b6d0a10b8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6691_689d8f47-313d-426a-8482-de6b706c1f8d.jpg",
+            "caption": "<p>Ashley Benson Chunky Gem Ring<\/p>"
+          }
+        },
+        "dfe773b5-ffdf-475c-8dfc-d37f0b240489": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ashleybenson-2021-09-19-instagram-CUA5ekpri6R-post_08e48c7f-6ada-4d8b-ad5d-ce0dde34c1d0.jpg",
+            "caption": "<p>Ashley Benson Chunky Gem Ring Blue<\/p>"
+          }
+        },
+        "17bfad65-65bb-48be-af99-7d0cbe8a7659": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_8996_2_0706f2b3-9192-4e4a-bc45-36224c32d8b8.jpg",
+            "caption": "<p>Ashley Benson Instagram Post Chunky Gem Ring Blue<\/p>"
+          }
+        },
+        "8f168531-9de1-48ef-b783-6584d6088380": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2054_e6a44241-88b1-4119-a08d-aeceba1232d3.jpg",
+            "caption": "<p>Apple Martin Chunky Gem Choker<\/p>"
+          }
+        },
+        "178d526e-a57f-41b4-b6f8-6fb1755af932": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_6812_b8d01d70-180f-4671-9098-11bb8f200cb6.jpg",
+            "caption": "<p>Apple Martin Chunky Gem Choker Emerald<\/p>"
+          }
+        },
+        "14132262-a881-495f-9a38-d97d9a1b32be": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_7_22f430f2-4582-4167-940f-c800a185696b.jpg",
+            "caption": "<p>Miranda Kerr Candy Gem Ring Yellow<\/p>"
+          }
+        },
+        "e5ca00c4-d481-4451-9e3b-3a7f2f082fdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_6_66c7745f-f56a-4b48-8184-2f0b614a8a80.jpg",
+            "caption": "<p>Miranda Kerr Square Candy Ring Yellow<\/p>"
+          }
+        },
+        "5edfb34c-fb35-4738-926a-5d4e58f9acf2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-4656_8ff40f51-f1ce-4ce5-9d27-4c43e849733f.jpg",
+            "caption": "<p>Miranda Kerr Square Candy Ring Yellow<\/p>"
+          }
+        },
+        "49941287-ed6c-4e38-a7d1-4be5bb0dea0c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2051_b7310855-c451-4f86-8095-b4ae0a693f2c.jpg",
+            "caption": "<p>Bella Hadid Chunky Gem Ring & Candy Ring<\/p>"
+          }
+        },
+        "bb6d2fc2-d79a-4aec-a06b-54ff0557130d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-10-18_at_9.19.07_PM_6c19c17b-d8cb-43cc-9f54-725c3a728bd7.png",
+            "caption": "<p>Bella Hadid Candy Gem Ring Lime Green<\/p>"
+          }
+        },
+        "5f3b478d-2e54-4275-be92-daa511bf1d60": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bellahadid-2021-08-23-instagram-CS6vhffglaR-post_310e63db-1556-49c2-ad16-6ca27b2d11a7.jpg",
+            "caption": "<p>Bella Hadid Chunky Gem Ring Ruby<\/p>"
+          }
+        },
+        "37b25019-7aaa-4e68-af9a-0530674efcc6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2021-07-20_at_5.18.19_PM_191fcbfc-118c-480e-93e4-ddfc34eae8f9.png",
+            "caption": "<p>Bella Hadid Chunky Gem Ring Yellow<\/p>"
+          }
+        },
+        "347147f9-f464-4026-8c0d-007e28d321b7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-4669_b81c0e04-0035-47b0-af38-729318c62b2a.jpg",
+            "caption": "<p>Bella Hadid Chunky Gem Ring Ruby<\/p>"
+          }
+        },
+        "88198768-2413-4ca1-a106-01cc90c6f0c4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-4472_8a2fd0ee-a692-47c0-824f-b3a911f02cc3.jpg",
+            "caption": "<p>Bella Hadid Chunky Gem Ring in Yellow & Ruby<\/p>"
+          }
+        },
+        "3d5f87ee-4f27-4797-8b2a-a06e61b034c2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-4473_fcc5b1b6-8cd2-4cd6-b8da-104a701ba76e.jpg",
+            "caption": "<p>Bella Hadid Chunky Gem Ring Ruby<\/p>"
+          }
+        },
+        "c50463da-4db0-46a4-8668-55741428dbfc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3639_1364c06c-e07f-472c-9f4b-5c108dc1ced7.jpg",
+            "caption": "<p>Bella Hadid Single Drop Ge Earring<\/p>"
+          }
+        },
+        "5c06883d-5989-4007-a0ce-5e2ea5937782": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3580_4761c8db-8d10-404e-95e0-518c50c93905.jpg",
+            "caption": "<p>Bella Hadid Single Drop Gem Earring<\/p>"
+          }
+        },
+        "1d9e22df-bd44-4002-94f6-04755b00ac4b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed_5_25301abb-2721-4c38-b93e-87d0f6f0c80f.jpg",
+            "caption": "<p>Arielle Vandenberg Holly Hoop<\/p>"
+          }
+        },
+        "f9f8b8c0-16fb-48ab-bf13-fc11727e56ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3814_0a88f009-917b-4443-a5f4-1c97dac36db2.jpg",
+            "caption": "<p>Emrata Ruby Chunky Gem Ring<\/p>"
+          }
+        },
+        "9dfe5e8f-67dd-41b8-b354-536d6b56f2db": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3815_c52aacca-59ce-4090-97d9-56b394f5231c.jpg",
+            "caption": "<p>Emrata Ruby Chunky Gem Ring<\/p>"
+          }
+        },
+        "6d80ae0b-0494-4e21-8dbe-f20ac2d9654d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3930_7b462204-140c-477b-b0c2-0a8bfa4e1efb.jpg",
+            "caption": "<p>Emrata Ruby Chunky Gem Ring<\/p>"
+          }
+        },
+        "fe2a9a70-93e0-4232-86e9-6d027e30f8d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jennifer_Hudson_858b3008-83b3-43ea-9964-8cea9970f7ad.png",
+            "caption": "<p>Jennifer Hudson Chunky Gem Choker Blue & Green<\/p>"
+          }
+        },
+        "5e185516-b9b4-4d94-9259-67801f0e536b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AAC0F525-5B94-46F8-9CA1-DECE7DB31BF9_1_1b7d3ecb-2026-48f7-a452-a36f18f1953b.jpg",
+            "caption": "<p>Madison Iseman Chunky Gem Choker in Emerald, Oval Green Ring & Baby Butterfly Stud<\/p>"
+          }
+        },
+        "c3cc86a7-35b1-484c-a977-b4619cdc6692": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Madison_Iseman_1_5f4c53fa-5a65-4627-bf91-2c96f47032ed.jpg",
+            "caption": "<p>Madison Iseman Baby Butterfly Stud<\/p>"
+          }
+        },
+        "a70a4743-609f-4f29-9007-b3dff4df43ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/janel_8a3d33ec-8c79-4fd6-ac3a-0ee6d76b3af1.jpg",
+            "caption": "<p>Janel Parish Holly Hoop<\/p>"
+          }
+        },
+        "30238ccd-2b3a-4c25-a45c-de25a0db0e81": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-3527_ae462748-c8d8-4338-99da-490fd8d23cc9.jpg",
+            "caption": "<p>Jojo Fletcher Holly Hoop<\/p>"
+          }
+        },
+        "052cdf6a-9426-4022-ad0a-60e5353355e2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/159252272_918703442231596_4213431345562706987_n_1_e728b832-13e7-4b88-9500-2242f3339068.jpg",
+            "caption": "<p>Kelsea Ballerini Canary Chunky Gem Ring<\/p>"
+          }
+        },
+        "caaa7fcb-c71b-427e-bee1-d51c8c80752a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Zoey_Deutch_08dc4df8-b47b-402a-b1b6-e7db11058b79.png",
+            "caption": "<p>Zoey Deutch Logo Choker<\/p>"
+          }
+        },
+        "22c6d92a-e32a-4210-af43-4a2eb90c5bff": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Candace_Bure_6c5c7bc4-a319-449f-90df-8069c5abfb9f.png",
+            "caption": "<p>Candace Cameron Bure<\/p>"
+          }
+        },
+        "a7899268-a0f4-4a93-8505-6a33fa4e92e7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/January_Jones_ca1d6755-58b0-41f1-bb2a-c51d70326832.png",
+            "caption": "<p>January Jones Wearing Single Drop Gem Earring in Purple<\/p>"
+          }
+        },
+        "6b4d8ac1-79b5-4d4b-8b55-b306fe7222b0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3924_88aa316d-b1ae-4916-bb0e-1344ca6779c7.jpg",
+            "caption": "<p>Kate Bosworth Multi Stone Choker in Clear<\/p>"
+          }
+        },
+        "aedd2581-47a4-480a-9bfe-314aa95911f1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6706DE69-CF63-4545-A192-1501EF12121B_4ab264b8-8e09-410c-903f-982675622f75.jpg",
+            "caption": "<p>Katherine Schwarzenegger Multi Drop Earring<\/p>"
+          }
+        },
+        "687e5e33-1b54-494b-a506-a83bbd6713a7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mads_and_Riley_Lewis_3359c415-2416-47bf-9ba1-285108ecc90e.png",
+            "caption": "<p>Madison and Riley Lewis Suiteheart Heart Necklaces<\/p>"
+          }
+        },
+        "5fdd5758-518a-49e4-a10b-3020a8b25803": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Erin_Krakow_7da73762-c10e-4757-811b-ed78f5d1fe21.png",
+            "caption": "<p>Erin Krakow Chunky Gem Choker<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-0",
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-1",
+        "template--16623197651172__d6c54e6b-6898-4d56-bca9-2ecdd3a938a2-1668637889e00a8816-2",
+        "b6743519-c117-4b39-a918-d58309dae5d5",
+        "18738331-0d59-4670-b521-465f78b7b5bf",
+        "6ecc22f2-d808-4a19-951d-4e02b49fa945",
+        "12b79ba1-b7d3-44b9-bd7b-b219c4dfe4de",
+        "490caf9b-5a54-4e69-a451-2fdf2c9781f7",
+        "3da34c24-a8d7-4cb5-b656-a15576053a6d",
+        "79cd7f6f-352c-4dda-bb6b-39727560d0bb",
+        "0be4761a-d02d-4b68-8f77-94d0c6b5434c",
+        "89980a92-48e9-4946-a852-7048d7fdb241",
+        "1cc695a3-8796-4ca8-9932-24710bd65861",
+        "598b955a-f024-47d3-844e-68b991be2dea",
+        "4235ac75-078d-4d45-babe-92fd4e0c864b",
+        "b131e4a1-d640-400e-9bc7-956e07c9d025",
+        "5b8d1530-a22a-449b-9f90-f05b6d0a10b8",
+        "dfe773b5-ffdf-475c-8dfc-d37f0b240489",
+        "17bfad65-65bb-48be-af99-7d0cbe8a7659",
+        "8f168531-9de1-48ef-b783-6584d6088380",
+        "178d526e-a57f-41b4-b6f8-6fb1755af932",
+        "14132262-a881-495f-9a38-d97d9a1b32be",
+        "e5ca00c4-d481-4451-9e3b-3a7f2f082fdb",
+        "5edfb34c-fb35-4738-926a-5d4e58f9acf2",
+        "49941287-ed6c-4e38-a7d1-4be5bb0dea0c",
+        "bb6d2fc2-d79a-4aec-a06b-54ff0557130d",
+        "5f3b478d-2e54-4275-be92-daa511bf1d60",
+        "37b25019-7aaa-4e68-af9a-0530674efcc6",
+        "347147f9-f464-4026-8c0d-007e28d321b7",
+        "88198768-2413-4ca1-a106-01cc90c6f0c4",
+        "3d5f87ee-4f27-4797-8b2a-a06e61b034c2",
+        "c50463da-4db0-46a4-8668-55741428dbfc",
+        "5c06883d-5989-4007-a0ce-5e2ea5937782",
+        "1d9e22df-bd44-4002-94f6-04755b00ac4b",
+        "f9f8b8c0-16fb-48ab-bf13-fc11727e56ec",
+        "9dfe5e8f-67dd-41b8-b354-536d6b56f2db",
+        "6d80ae0b-0494-4e21-8dbe-f20ac2d9654d",
+        "fe2a9a70-93e0-4232-86e9-6d027e30f8d4",
+        "5e185516-b9b4-4d94-9259-67801f0e536b",
+        "c3cc86a7-35b1-484c-a977-b4619cdc6692",
+        "a70a4743-609f-4f29-9007-b3dff4df43ad",
+        "30238ccd-2b3a-4c25-a45c-de25a0db0e81",
+        "052cdf6a-9426-4022-ad0a-60e5353355e2",
+        "caaa7fcb-c71b-427e-bee1-d51c8c80752a",
+        "22c6d92a-e32a-4210-af43-4a2eb90c5bff",
+        "a7899268-a0f4-4a93-8505-6a33fa4e92e7",
+        "6b4d8ac1-79b5-4d4b-8b55-b306fe7222b0",
+        "aedd2581-47a4-480a-9bfe-314aa95911f1",
+        "687e5e33-1b54-494b-a506-a83bbd6713a7",
+        "5fdd5758-518a-49e4-a10b-3020a8b25803"
+      ],
+      "settings": {
+        "subheading": "As Seen On",
+        "title": "Celebrities Who Wear Short & Suite",
+        "show_arrows": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "d6c54e6b-6898-4d56-bca9-2ecdd3a938a2"
+  ]
+}
