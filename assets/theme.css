@@ -14999,7 +14999,7 @@ shopify-payment-terms {
 
 
 
-.slideshow__slide-inner{
+/* .slideshow__slide-inner{
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -15009,16 +15009,17 @@ shopify-payment-terms {
 }
 .slideshow__slide-inner .slideshow__image-wrapper {
   position: relative;
-  width: 60%;
+  width: 100%;
   left: unset;
   top: unset;
 }
+
 .slideshow__slide-inner .slideshow__image-wrapper img{
   position: relative;
   width: 100%;
 }
 .slideshow__slide-inner .container{
-  width: 40%;
+  width: 100%;
   max-width: unset;
 }
 .slideshow__slide-inner .container .content-box{
@@ -15043,6 +15044,25 @@ shopify-payment-terms {
   font-weight: 400;
   max-width: 300px;
   font-family: Montserrat, sans-serif;
+} */
+.slideshow__slide-inner .container .content-box .heading--small{
+  text-transform: unset;
+  font-size: 0.9vw;
+  line-height: 24px;
+  font-family: "CapitoliumNews2-Regular";
+  font-weight: normal;
+}
+.button.button--primary{
+  padding: 15px 45px;
+  line-height: 17px;
+  border-radius: 0;
+  font-weight: 400;
+  max-width: 300px;
+  font-family: Montserrat, sans-serif;
+}
+.slideshow__slide-inner .container .content-box .heading--large{
+  font-size: 3.2vw;
+  font-family: "CapitoliumNews2-Regular";
 }
 @media screen and (max-width: 999px){
   .slideshow__slide-inner .container .content-box .heading--large{
