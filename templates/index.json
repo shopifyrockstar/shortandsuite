@@ -3,28 +3,27 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slide-1": {
+        "02cbd157-a1f7-4133-b655-36166d7c2858": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Hero.png",
-            "mobile_image": "shopify:\/\/shop_images\/Group_54.png",
+            "image": "shopify:\/\/shop_images\/Jewelry_holiday_gift_sale_Website_Banner_Landscape_2160_x_1080_px.jpg",
             "text_position": "middle_center",
-            "subheading": "BLACK FRIDAY IS HERE 45% OFF THE ENTIRE SITE AUTOMATICALLY APPLIED AT CHECKOUT!",
-            "title": "Black Friday is here! 45% OFF THE ENTIRE SITE!",
-            "button_1_text": "SHOP NOW",
-            "button_1_link": "shopify:\/\/collections\/all-suites",
+            "subheading": "adf",
+            "title": "30% off sitewide",
+            "button_1_text": "shop",
+            "button_1_link": "shopify:\/\/collections\/all",
             "button_2_text": "",
             "button_2_link": "",
-            "text_color": "#000000",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
+            "text_color": "#3f1111",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
             "overlay_color": "#000000",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "slide-1"
+        "02cbd157-a1f7-4133-b655-36166d7c2858"
       ],
       "settings": {
         "section_height": "auto",
@@ -429,6 +428,7 @@
     },
     "1a5905e3-5576-4699-ad23-711737a0841c": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "blog": "",
         "subheading": "Stay up-to-date",
