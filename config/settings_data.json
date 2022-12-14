@@ -37,6 +37,7 @@
     "cart_type": "drawer",
     "cart_show_free_shipping_threshold": true,
     "social_instagram": "https:\/\/www.instagram.com\/short_andsuite",
+    "favicon": "shopify:\/\/shop_images\/Asset_1_4x_1_544412b8-c073-46b0-8c5c-ac9fda44b852.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/Asset_1_4x_1.png",
     "checkout_logo_size": "small",
     "checkout_sidebar_background_color": "#c3ebcf",
@@ -51,7 +52,7 @@
           "message-1": {
             "type": "message",
             "settings": {
-              "text": "BLACK FRIDAY IS HERE 45% OFF THE ENTIRE SITE AUTOMATICALLY APPLIED AT CHECKOUT!",
+              "text": "Order by 12\/17 @ 11:59pm PST for delivery by 12\/24",
               "learn_more_text": "Learn more",
               "title": "",
               "content": "<p>All orders are processed within 2 business days! Excluding weekends, holidays and promotional periods. All orders are sent via USPS and you will be notified right away via email with your tracking number. <\/p>",
